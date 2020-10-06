@@ -14,21 +14,22 @@
 
     <link rel = "stylesheet"
          type = "text/css"
-         href = "albero.css" />
+         href = "css/albero.css" />
   </head>
   <body>
     <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="">Item Sizes View</a>
-        <a href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/albero-azure/albero/issues">Contact</a></li>
+          </ul> 
     </div> 
     <img src="mainDT.png" alt="Albero Main Decision Tree" style="min-width: 30%" usemap="#map" />
     <map name="map">
         <!-- Drill Downs -->
-        <area shape="rect" coords="4394, 802, 4634, 1094" alt="SQL Database" href="DTAzureSQL.png" />
-        <area shape="rect" coords="4703, 802, 4938, 1100" alt="Postgre SQL" href="DTPostgreSQL.png" />
-        <area shape="rect" coords="5299, 817, 5530, 1113" alt="MySQL" href="DTMySQL.png" />
-        <area shape="rect" coords="5624, 821, 5856, 1119" alt="Redis" href="DTRedis.png" />
+        <area shape="rect" coords="4394, 802, 4634, 1094" alt="SQL Database" href="html/azuresql.html" />
+        <area shape="rect" coords="4703, 802, 4938, 1100" alt="Postgre SQL" href="html/postgresql.html" />
+        <area shape="rect" coords="5299, 817, 5530, 1113" alt="MySQL" href="html/mysql.html" />
+        <area shape="rect" coords="5624, 821, 5856, 1119" alt="Redis" href="html/redis.html" />
         <!-- Integrations -->
         <area shape="rect" coords="6100, 869, 6203, 948" alt="Azure Synapse Sink for Cosmos DB" href="https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link" />
         <area shape="rect" coords="3136, 1163, 3221, 1237" alt="Azure Synapse CETAS for ADLS Gen2" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas" />
