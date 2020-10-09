@@ -14,7 +14,7 @@
 
     <link rel = "stylesheet"
          type = "text/css"
-         href = "/css/albero.css" />
+         href = "css/albero.css" />
   </head>
   <body>
     <div class="topnav">
@@ -26,6 +26,21 @@
           <li><a href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
         </ul> 
     </div> 
-    <img class="center-fit" src="/images/DTMySQL.png" alt="Azure MySQL / MariaDB Decision Tree" style="min-width: 30%" />
+    <img src="/images/DTMySQL.png" alt="Albero Main Decision Tree MySQL" style="min-width: 30%" usemap="#map" />
+    <map name="map">
+        <!-- SLAs -->
+        <area shape="rect" coords="72, 1712, 266, 1815" alt="Maria DB SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/mariadb/v1_1/" />
+        <area shape="rect" coords="634, 1712, 828, 1816" alt="MySQL SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/mysql/v1_1/" />
+        <!-- HA -->
+        <area shape="rect" coords="70, 1490, 266, 1594" alt="Maria DB High Availability" href="https://docs.microsoft.com/en-us/azure/mariadb/concepts-high-availability" />
+        <area shape="rect" coords="633, 1484, 831, 1590" alt="MySQL High Availability" href="https://docs.microsoft.com/en-us/azure/mysql/concepts-high-availability" />
+        <!-- Storage -->
+        <area shape="rect" coords="72, 1605, 263, 1706" alt="Maria DB Storage" href="https://docs.microsoft.com/en-us/azure/mariadb/concepts-pricing-tiers" />
+        <area shape="rect" coords="635, 1603, 828, 1707" alt="MySQL Storage" href="https://azure.microsoft.com/en-us/pricing/details/mysql/server/" />
+        <area shape="rect" coords="1192, 1601, 1387, 1707" alt="Flex Server Storage" href="https://docs.microsoft.com/en-us/azure/mysql/flexible-server/concepts-compute-storage" />
+        <area shape="rect" coords="1192, 1485, 1387, 1593" alt="Flex Server HA" href="https://docs.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-high-availability" />
+    </map>
   </body>
 </html>
+
+
