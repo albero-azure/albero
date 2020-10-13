@@ -38,6 +38,15 @@
         <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
       </ul> 
     </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img src="/images/DTRedis.png" alt="Albero Main Decision Tree Caching" style="min-width: 30%" usemap="#map" />
     <map name="map">
       <area shape="rect" coords="67, 897, 230, 999" alt="Redis Basic RAM" href="https://azure.microsoft.com/en-us/pricing/details/cache/" />

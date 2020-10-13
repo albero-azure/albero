@@ -38,6 +38,15 @@
         <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
       </ul> 
     </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img src="/images/DTMySQL.png" alt="Albero Main Decision Tree MySQL" style="min-width: 30%" usemap="#map" />
     <map name="map">
         <!-- SLAs -->

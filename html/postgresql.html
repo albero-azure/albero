@@ -20,26 +20,33 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="topnav">
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu
-        <span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/index.html">Home</a></li>
-          <li>
-            <a class="test" tabindex="-1" href="#">View<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="/html/forlang.html">Developer View</a></li>
-              <li><a tabindex="-1" href="/html/security.html">Security View</a></li>
-            </ul>
-          </li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/profiles.html">Profiles</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/legend.html">Legend</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
-        </ul> 
-      </div>
-    </div> 
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/index.html">Home</a></li>
+        <li>
+          <a class="test" tabindex="-1" href="#">View<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="/html/forlang.html">Developer View</a></li>
+            <li><a tabindex="-1" href="/html/security.html">Security View</a></li>
+          </ul>
+        </li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/profiles.html">Profiles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/legend.html">Legend</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
+      </ul> 
+    </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img src="/images/DTPostgreSQL.png" alt="Albero Main Decision Tree" style="min-width: 30%" usemap="#map" />
     <map name="map">
         <!-- SLAs -->

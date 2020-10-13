@@ -10,7 +10,7 @@
         gtag('config', 'UA-179718917-1');
     </script>
 
-    <title>Legend for Albero Azure Decisison Tree for Data</title>
+    <title>Albero Azure Decisison Tree for Data</title>
 
     <link rel = "stylesheet"
          type = "text/css"
@@ -38,6 +38,15 @@
         <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
       </ul> 
     </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img class="center-fit" src="/images/Legend.png" alt="Legend for Albero Decision Tree" style="min-width: 30%" />
   </body>
 </html>

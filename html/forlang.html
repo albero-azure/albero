@@ -10,7 +10,7 @@
         gtag('config', 'UA-179718917-1');
     </script>
 
-    <title>Albero Azure Decisison Tree for Data: Developer View</title>
+    <title>Albero Azure Decisison Tree for Data</title>
 
     <link rel = "stylesheet"
          type = "text/css"
@@ -38,6 +38,15 @@
         <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
       </ul> 
     </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img src="/images/DTForlang.png" alt="Albero Main Decision Tree" style="min-width: 30%" usemap="#map" />
     <map name="map">
         <!--  -->
