@@ -10,11 +10,14 @@
         gtag('config', 'UA-179718917-1');
     </script>
 
-    <title>Legend for Albero Azure Decisison Tree for Data</title>
+    <title>Albero Azure Decisison Tree for Data Security View</title>
 
     <link rel = "stylesheet"
          type = "text/css"
-         href = "/css/albero.css" />
+         href = "css/albero.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="dropdown">
@@ -35,6 +38,15 @@
         <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
       </ul> 
     </div>
-    <img class="center-fit" src="/images/Legend.png" alt="Legend for Albero Decision Tree" style="min-width: 30%" />
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+    <img src="/images/underconstruction.png" alt="Albero Main Decision Tree" style="min-width: 30%" usemap="#map" />
   </body>
 </html>
