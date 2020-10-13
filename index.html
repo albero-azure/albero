@@ -15,17 +15,38 @@
     <link rel = "stylesheet"
          type = "text/css"
          href = "css/albero.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="topnav">
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/html/forlang.html">Developer View</a></li>
-          <li><a href="/html/profiles.html">Profiles</a></li>
-          <li><a href="/html/legend.html">Legend</a></li>
-          <li><a href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
-        </ul> 
-    </div> 
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/index.html">Home</a></li>
+        <li>
+          <a class="test" tabindex="-1" href="#">View<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="/html/forlang.html">Developer View</a></li>
+            <li><a tabindex="-1" href="#">Another View</a></li>
+          </ul>
+        </li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/profiles.html">Profiles</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/legend.html">Legend</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
+      </ul> 
+    </div>
+<script>
+$(document).ready(function(){
+  $('.dropdown a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     <img src="mainDT.png" alt="Albero Main Decision Tree" style="min-width: 30%" usemap="#map" />
     <map name="map">
       <area shape="rect" coords="2899, 865, 3087, 990" href="https://docs.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide?view=sql-server-ver15" alt="Polybase" />
