@@ -4,5 +4,8 @@ UPD1: 17.10.2020
 - Link for Azure SQL Database Distributed Transactions
 - Links to feature differences between Cosmos DB and Cassandra / Mongo added (just click on the correspondent DB logo)
 
+UPD2: 24.10.2020
+- Max supported versions added for PostgreSQL, MySQL, MariaDB
+
 TODO:
 - Proper Links for DevView (almost done - only Spark left)
