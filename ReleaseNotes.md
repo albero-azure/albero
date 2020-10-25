@@ -9,4 +9,5 @@ UPD2: 25.10.2020
 - Cosmos DB: Mongo, Cassandra, Gremlin versions support added
 - Dev View - All the links added
 - Main DT - some aditional constraints / integrations added
-- Main DT - some extra services added
+- Main DT - some extra services added (HDI)
+- Main DT - AAS Decisison Reviewed (as per Issue #8)
