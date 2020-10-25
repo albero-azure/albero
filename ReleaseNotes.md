@@ -6,6 +6,7 @@ UPD1: 17.10.2020
 
 UPD2: 24.10.2020
 - Max supported versions added for PostgreSQL, MySQL, MariaDB
+- Cosmos DB: Mongo, Cassandra, Gremlin versions support added
 
 TODO:
 - Proper Links for DevView (almost done - only Spark left)
