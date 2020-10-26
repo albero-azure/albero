@@ -1,18 +1,59 @@
-.dropdown {
-    position: absolute !important;
-    margin-left: 5px;
-    margin-top: 5px;
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
-.active {
-    background-color: #4CAF50;
+@media screen and (max-width: 480px) {
+ .menu {
+	display: none;
   }
-
-  li:last-child {
-    border-right: none;
+ .topnav {
+	display: block !important;
   }
+}
 
-  .imgbox {
+.menu {
+	position: fixed;
+	width: 100%;
+    background-color: #000000;
+    height: 30px;
+	padding: 12px 12px 12px 40px;
+}
+
+.submenu {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.submenu {
+	display:inline-block;
+	vertical-align: middle;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.line {
+	min-width: 2px;
+	background-color: #ff6b35;
+	height: 100%;
+}
+
+a {
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+a:hover {
+  color: #ff6b35;
+}
+
+.line {
+ width:1px; /* edit this if you want */
+ background-color: your color
+}
+
+.imgbox {
     display: grid;
     height: 100%;
 }
@@ -22,6 +63,48 @@
     margin: auto;
 }
 
-.btn, .dropdown-menu {
-	font-size: 18px !important;
+/* Style the navigation menu */
+.topnav {
+  position: fixed;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  color: #ff6b35;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
 }
