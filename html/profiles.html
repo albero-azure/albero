@@ -12,41 +12,38 @@
 
     <title>Albero Azure Decision Tree for Data</title>
 
-    <link rel = "stylesheet"
-         type = "text/css"
-         href = "css/albero.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/albero.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Menu
-      <span class="caret"></span></button>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="/index.html">Home</a></li>
-        <li>
-          <a class="test" tabindex="-1" href="#">View<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a tabindex="-1" href="/html/forlang.html">Developer View</a></li>
-            <li><a tabindex="-1" href="/html/security.html">Security View</a></li>
-          </ul>
-        </li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/profiles.html">Profiles</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="/html/legend.html">Legend</a></li>
-        <li role="presentation" class="divider"></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/albero-azure/albero/issues">Contact / Feedback</a></li>
-      </ul> 
+    <div class="menu">
+		<div class="submenu"><a class="link" href="/index.html"><img src="\images\menu\menu-home.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-git.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-bot.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-search.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="/html/forlang.html">Developer</a></div>
+		<div class="submenu"><a class="link" href="/html/security.html">Security</a></div>
+		<div class="submenu"><a class="link" href="#">DevOps</a></div>
+		<div class="submenu"><a class="link" href="/html/legend.html">Legend</a></div>
+		<div class="submenu"><a class="link" href="/html/profiles.html">Profiles</a></div>
     </div>
-<script>
-$(document).ready(function(){
-  $('.dropdown a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
-</script>
+	<div class="topnav">
+		<a href="/index.html" class="active"><img src="\images\menu\menu-home.png"></a>
+		<div id="myLinks">
+			<a href="/html/forlang.html">Developer</a>
+			<a href="/html/security.html">Security</a>
+			<a href="#">DevOps</a>
+			<a href="/html/legend.html">Legend</a>
+			<a href="/html/profiles.html">Profiles</a>
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+	</a>
+	</div>
+	<div style="overflow: auto;">
     <img class="center-fit" src="/images/Profiles.png" alt="Read and Write Profiles for Albero Decision Tree" style="width: 50%" />
   </body>
 </html>
