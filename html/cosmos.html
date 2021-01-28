@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179718917-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179718917-1');
+    </script>
+
+    <title>Albero Azure Decision Tree for Data: Azure Cosmos DB</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/albero.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="menu">
+		<div class="submenu"><a class="link" href="/index.html"><img src="\images\menu\menu-home.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="https://github.com/albero-azure/albero/issues"><img src="\images\menu\menu-git.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-bot.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-search.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="/html/forlang.html">Developer</a></div>
+		<div class="submenu"><a class="link" href="/html/legend.html">Legend</a></div>
+		<div class="submenu"><a class="link" href="/html/profiles.html">Profiles</a></div>
+    </div>
+	<div class="topnav">
+		<a href="/index.html" class="active"><img src="\images\menu\menu-home.png"></a>
+		<div id="myLinks">
+			<a href="/html/forlang.html">Developer</a>
+			<a href="/html/legend.html">Legend</a>
+			<a href="/html/profiles.html">Profiles</a>
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+	</a>
+	</div>
+	<div style="overflow: auto;">
+    <img src="/images/DTCosmosDB.png" alt="Albero Decision Tree Cosmos DB" usemap="#map" />
+    <map name="map">
+        <!--Azure Cosmos DB Gremlin API-->
+        <area shape="rect" coords="3111, 660, 3465, 1030" id="cosmosdbgremlinapi" alt="Azure Cosmos DB Gremlin API" href="" />
+        <!--Azure Cosmos DB Gremlin API Parameters-->
+        <area shape="rect" coords="3297, 1026, 3461, 1116" alt="Azure Cosmos DB Gremlin API Storage" href="" />
+        <area shape="rect" coords="3110, 1115, 3295, 1201" alt="Azure Cosmos DB Gremlin API SLA" href="" />
+        <area shape="rect" coords="3110, 1027, 3296, 1115" alt="Azure Cosmos DB Gremlin API High Availability" href="" />
+        <!--Azure Cosmos DB Gremlin API Integration-->
+        <area shape="rect" coords="3460, 1056, 3623, 1187" alt="Azure Cosmos DB Gremlin API Change Feed " href="" />
+        <area shape="rect" coords="3462, 916, 3622, 1049" alt="Azure Cosmos DB Gremlin API Jupiter" href="" />
+        <area shape="rect" coords="3462, 777, 3622, 909" alt="Azure Cosmos DB Gremlin API Functions" href="" />
+        <area shape="rect" coords="3463, 639, 3622, 770" alt="Azure Cosmos DB Gremlin API Search" href="" />
+        <!--Azure Cosmos DB Gremlin API Version-->
+        <area shape="rect" coords="3178, 567, 3409, 655" alt="Azure Cosmos DB Gremlin API Version" href="" />
+
+        <!--Azure Cosmos DB Cassandra API-->
+        <area shape="rect" coords="2493, 660, 2844, 1028" id="cosmosdbcassandraapi" alt="Azure Cosmos DB Cassandra API" href="" />
+        <!--Azure Cosmos DB Cassandra API Parameters-->
+        <area shape="rect" coords="2684, 1028, 2847, 1116" alt="Azure Cosmos DB Cassandra API Storage" href="" />
+        <area shape="rect" coords="2493, 1116, 2681, 1199" alt="Azure Cosmos DB Cassandra API SLA" href="" />
+        <area shape="rect" coords="2496, 1028, 2682, 1116" alt="Azure Cosmos DB Cassandra API High-Availability" href="" />
+        <!--Azure Cosmos DB Cassandra API Integration-->
+        <area shape="rect" coords="2845, 1057, 3004, 1187" alt="Azure Cosmos DB Cassandra API Change Feed" href="" />
+        <area shape="rect" coords="2843, 916, 3001, 1047" alt="Azure Cosmos DB Cassandra API Jupiter" href="" />
+        <area shape="rect" coords="2844, 779, 3002, 908" alt="Azure Cosmos DB Cassandra API Functions" href="" />
+        <area shape="rect" coords="2848, 639, 3001, 770" alt="Azure Cosmos DB Cassandra API Search" href="" />
+        <!--Azure Cosmos DB Cassandra API Version-->
+        <area shape="rect" coords="2553, 604, 2817, 660" alt="Azure Cosmos DB Cassandra API Version" href="" />
+
+        <!--Azure Cosmos DB Mongo API-->
+        <area shape="rect" coords="1723, 660, 2074, 1028" id="cosmosdbmongoapi" alt="Azure Cosmos DB Mongo API" href="" />
+        <!--Azure Cosmos DB Mongo API Parameters-->
+        <area shape="rect" coords="1910, 1031, 2079, 1119" alt="Azure Cosmos DB Mongo API Storage" href="" />
+        <area shape="rect" coords="1720, 1122, 1910, 1203" alt="Azure Cosmos DB Mongo API SLA" href="" />
+        <area shape="rect" coords="1721, 1030, 1910, 1119" alt="Azure Cosmos DB Mongo API High Availability" href="" />
+        <!--Azure Cosmos DB Mongo API Integration-->
+        <area shape="rect" coords="2255, 639, 2420, 774" alt="Azure Cosmos DB Mongo API Out Jupiter" href="" />
+        <area shape="rect" coords="2072, 1059, 2233, 1189" alt="Azure Cosmos DB Mongo API Out Synapse" href="" />
+        <area shape="rect" coords="2074, 924, 2231, 1050" alt="Azure Cosmos DB Mongo API Out Change Feed" href="" />
+        <area shape="rect" coords="2074, 779, 2229, 914" alt="Azure Cosmos DB Mongo API Out Functions" href="" />
+        <area shape="rect" coords="2076, 643, 2229, 773" alt="Azure Cosmos DB Mongo API Out Search" href="" />
+        <!--Azure Cosmos DB Mongo API Version Support-->
+        <area shape="rect" coords="1804, 595, 2021, 667" alt="Azure Cosmos DB Mongo API Version Support" href="" />
+
+        <!--Azure Cosmos DB SQL API-->
+        <area shape="rect" coords="788, 650, 1125, 1026" id="cosmosdbsqlapi" alt="Azure Cosmos DB SQL API" href="" />
+        <!--Azure Cosmos DB SQL API Parameters-->
+        <area shape="rect" coords="956, 1026, 1130, 1115" alt="Azure Cosmos DB SQL API Storage" href="" />
+        <area shape="rect" coords="764, 1114, 956, 1201" alt="Azure Cosmos DB SQL API SLA" href="" />
+        <area shape="rect" coords="766, 1026, 956, 1114" alt="Azure Cosmos DB SQL API High Availability" href="" />
+        <!--Azure Cosmos DB SQL API Integration-->
+        <area shape="rect" coords="1286, 921, 1446, 1057" alt="Cosmos DB SQL API Integration Out Jupiter" href="" />
+        <area shape="rect" coords="1286, 782, 1441, 922" alt="Cosmos DB SQL API Integration Out Purview" href="" />
+        <area shape="rect" coords="1289, 641, 1447, 779" alt="Cosmos DB SQL API Integration Out Analysis Services" href="" />
+        <area shape="rect" coords="1127, 1062, 1291, 1194" alt="Cosmos DB SQL API Integration Out Change Feed" href="" />
+        <area shape="rect" coords="1127, 920, 1289, 1051" alt="Cosmos DB SQL API Integration Out Functions" href="" />
+        <area shape="rect" coords="1127, 782, 1288, 911" alt="Cosmos DB SQL API Integration Out Search" href="" />
+        <area shape="rect" coords="1129, 644, 1286, 774" alt="Cosmos DB SQL API Integration Out Synapse" href="" />
+        <area shape="rect" coords="636, 640, 793, 769" alt="Cosmos DB SQL API Integration In Stream Analytics" href="" />
+
+        <!--Azure Cosmos DB Serverless-->
+        <area shape="rect" coords="75, 643, 450, 1027" id="cosmosdbserverless" alt="Azure Cosmos DB Serverless" href="https://devblogs.microsoft.com/cosmosdb/serverless-preview/" />
+        <!--Azure Cosmos DB Serverless Parameters-->
+        <area shape="rect" coords="258, 1028, 448, 1115" alt="Max Storage Per Container" href="https://devblogs.microsoft.com/cosmosdb/serverless-preview/" />
+        <!--Azure Cosmos DB Serverless Integration-->
+    </map>
+  </body>
+</html>
