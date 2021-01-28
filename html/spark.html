@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179718917-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179718917-1');
+    </script>
+
+    <title>Albero Azure Decision Tree for Data: Spark on Azure</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/albero.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="menu">
+		<div class="submenu"><a class="link" href="/index.html"><img src="\images\menu\menu-home.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="https://github.com/albero-azure/albero/issues"><img src="\images\menu\menu-git.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-bot.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img src="\images\menu\menu-search.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="/html/forlang.html">Developer</a></div>
+		<div class="submenu"><a class="link" href="/html/legend.html">Legend</a></div>
+		<div class="submenu"><a class="link" href="/html/profiles.html">Profiles</a></div>
+    </div>
+	<div class="topnav">
+		<a href="/index.html" class="active"><img src="\images\menu\menu-home.png"></a>
+		<div id="myLinks">
+			<a href="/html/forlang.html">Developer</a>
+			<a href="/html/legend.html">Legend</a>
+			<a href="/html/profiles.html">Profiles</a>
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+	</a>
+	</div>
+	<div style="overflow: auto;">
+    <img src="/images/DTSpark.png" alt="Albero Main Decision Tree Spark" usemap="#map" />
+    <map name="map">
+            <!--Azure Mapping Data Flow-->
+            <area shape="rect" coords="231, 1460, 570, 1835" alt="Azure Mapping Data Flow" href="" />
+            <!--Azure Mapping Data Flow Parameters-->
+            <area shape="rect" coords="205, 1937, 396, 2015" alt="Azure Mapping Data Flow SLA" href="" />
+            <area shape="rect" coords="205, 1842, 396, 1934" alt="Azure Mapping Data Flow High Availability" href="" />
+            <!--Azure Mapping Data Flow Integrations-->
+            <area shape="rect" coords="575, 1449, 730, 1589" alt="Azure Mapping Data Flow Integrations Out" href="" />
+            <area shape="rect" coords="61, 1453, 229, 1587" alt="Azure Mapping Data Flow Integrations In" href="" />
+        
+            <!--Azure Batch-->
+            <area shape="rect" coords="893, 1459, 1205, 1847" alt="Azure Batch" href="" />
+            <!--Azure Batch Parameters-->
+            <area shape="rect" coords="1048, 1849, 1236, 1941" alt="Azure Batch Max Nodes" href="" />
+            <area shape="rect" coords="861, 1941, 1048, 2015" alt="Azure Batch SLA" />
+            <area shape="rect" coords="859, 1847, 1050, 1939" alt="Azure Batch High Availability" />
+            <!--Azure Batch Integrations-->
+            <area shape="rect" coords="1210, 1598, 1367, 1725" alt="Azure Batch Integration Out Blob" href="" />
+            <area shape="rect" coords="1209, 1456, 1368, 1594" alt="Azure Batch Integration Out Data Lake" />
+            <area shape="rect" coords="737, 1587, 894, 1720" alt="Azure Batch Integration In Blob" href="" />
+            <area shape="rect" coords="739, 1445, 894, 1582" alt="Azure Batch Integration In Data Lake" />
+        
+            <!--Azure Databricks-->
+            <area shape="rect" coords="2232, 1464, 2545, 1843" id="azuredatabricks" alt="Azure Databricks" href="" />
+            <!--Azure Databricks Parameters-->
+            <area shape="rect" coords="1721, 1840, 1878, 1935" alt="Azure Databricks Storage" href="" />
+            <area shape="rect" coords="1539, 1932, 1724, 2015" alt="Azure Databricks SLA" href="" />
+            <area shape="rect" coords="1540, 1840, 1724, 1932" alt="Azure Databricks High Availability" href="" />
+            <!--Azure Databricks Integrations-->
+            <area shape="rect" coords="1873, 1869, 2037, 1996" alt="Azure Databricks Integration Out Synapse" href="" />
+            <area shape="rect" coords="1874, 1728, 2037, 1859" alt="Azure Databricks Integration Out Delta Lake" href="" />
+            <area shape="rect" coords="1877, 1597, 2037, 1725" alt="Azure Databricks Integration Out Blob" href="" />
+            <area shape="rect" coords="1877, 1461, 2036, 1592" alt="Azure Databricks Integration Out Data Lake" href="" />
+            <area shape="rect" coords="1401, 1729, 1563, 1860" alt="Azure Databricks Integration In Delta Lake" href="" />
+            <area shape="rect" coords="1404, 1591, 1565, 1725" alt="Azure Databricks Integration In Blob" href="" />
+            <area shape="rect" coords="1405, 1453, 1566, 1583" alt="Azure Databricks Integration In Delta Lake" href="" />
+        
+            <!--Azure HDI36-->
+            <area shape="rect" coords="1562, 1458, 1873, 1840" id="azurehdi36" alt="Azure HDI36" href="" />
+            <!--Azure HDI40-->
+            <area shape="rect" coords="2683, 1459, 3002, 1839" id="azurehdi40" alt="Azure HDI40" href="" />
+            <!--Azure HDI Parameters-->
+            <area shape="rect" coords="2684, 1930, 2872, 2011" alt="Azure HDI SLA" href="" />
+            <area shape="rect" coords="2176, 1933, 2362, 2013" alt="Azure HDI SLA" href="" />
+            <area shape="rect" coords="2683, 1840, 2872, 1934" alt="Azure HDI High Availability" href="" />
+            <area shape="rect" coords="2176, 1841, 2361, 1935" alt="Azure HDI High Availability" href="" />
+            <!--Azure HDI Integrations-->
+            <area shape="rect" coords="3005, 1576, 3164, 1708" alt="Azure HDI Out Data Lake" href="" />
+            <area shape="rect" coords="3004, 1440, 3164, 1575" alt="Azure HDI Out Blob" href="" />
+            <area shape="rect" coords="2073, 1595, 2237, 1732" alt="Azure HDI In Data Lake" href="" />
+            <area shape="rect" coords="2075, 1452, 2235, 1592" alt="Azure HDI In Blob" href="" />
+            <!--Azure HDI Versions-->
+            <area shape="rect" coords="3035, 2054, 3187, 2180" alt="Azure HDI 4.0 Version & Support" href="" />
+            <area shape="rect" coords="2522, 2051, 2675, 2181" alt="Azure HDI 3.6 Version & Support" href="" />
+        
+            <!--Azure Synapse Spark-->
+            <area shape="rect" coords="3333, 1457, 3640, 1838" id="azuresynapsespark" alt="Azure Synapse Spark" href="" />
+            <!--Azure Synapse Spark Parameters-->
+            <area shape="rect" coords="3298, 1840, 3491, 1937" alt="Azure Synapse Spark High Availability" href="" />
+            <!--Azure Synapse Spark Integrations-->
+            <area shape="rect" coords="3632, 1717, 3807, 1853" alt="Azure Synapse Spark Integration Out Delta Lake" href="" />
+            <area shape="rect" coords="3634, 1586, 3805, 1716" alt="Azure Synapse Spark Integration Out Blob" href="" />
+            <area shape="rect" coords="3636, 1445, 3802, 1584" alt="Azure Synapse Spark Integration Out Data Lake" href="" />
+            <area shape="rect" coords="3172, 1719, 3328, 1846" alt="Azure Synapse Spark Integration In Delta Lake" href="" />
+            <area shape="rect" coords="3172, 1583, 3334, 1713" alt="Azure Synapse Spark Integration In Blob" href="" />
+            <area shape="rect" coords="3174, 1442, 3332, 1576" alt="Azure Synapse Spark Integration In Data Lake" href="" />
+    </map>
+  </body>
+</html>
