@@ -15,5 +15,7 @@ UPD1: 17.10.2020
 - Link for Azure SQL Database Distributed Transactions
 - Links to feature differences between Cosmos DB and Cassandra / Mongo added (just click on the correspondent DB logo)
 
+IR@688e615f-53a1-40b9-858b-6bfe6a4a5fa7@purview-47510ef5-5c1f-4d7a-87d4-0ac4de610468@we@Pmmdfukmlkeq6oox+bB3GSlyfKveMpoY2tGGL0U2jYQ=
+
 
 
