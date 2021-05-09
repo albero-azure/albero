@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/pages",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "makyo",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}

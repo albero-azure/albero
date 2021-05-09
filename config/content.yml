@@ -1,0 +1,113 @@
+sidebar:
+  link:
+    home: /
+    github: https://github.com/Albero/Albero
+    share: /share
+    contact: /contact
+
+
+filter:
+  platforms:
+    - Platform 1
+    - Platform 2
+    - Platform 3
+
+  technologies:
+    - Technology 1
+    - Technology 2
+    - Technology 3
+
+  viewpoints:
+    - Viewpoint 1
+    - Viewpoint 2
+    - Viewpoint 3
+
+
+mainpage:
+  groups:
+    - name: Favourites 1
+      services:
+        - name: Azure Data Services 1
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 2
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 3
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 4
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 5
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 6
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 7
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 8
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+    - name: Favourites 2
+      services:
+        - name: Azure Data Services 1
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 2
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 3
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+    - name: Favourites 3
+      services:
+        - name: Azure Data Services 1
+          link: https://albero.cloud/mainDT.png
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 2
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 3
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 4
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
+
+        - name: Azure Data Services 5
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          images:
+            - https://albero.cloud/images/Legend.png
