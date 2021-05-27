@@ -25,12 +25,14 @@ filter:
 
 mainpage:
   groups:
-    - name: Favourites 1
+    - name: Azure Services
       services:
-        - name: Azure Data Services 1
+        - name: Data Services
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           images:
-            - https://albero.cloud/images/Legend.png
+            - https://albero.cloud/mainDT.png
+            - https://albero.cloud/zoom/zooml1.png
+            - https://albero.cloud/zoom/zooml0.png
 
         - name: Azure Data Services 2
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

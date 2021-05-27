@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { FC } from 'react'
 import styled from '@emotion/styled'
+import { Location } from '@reach/router'
 import { LAYOUT_THEME } from '../../theme/layout'
 import { Center } from '@chakra-ui/react'
 import { ContactImage, GitHubImage, HomeImage, ShareImage } from '../../images/navigation/navigation'
@@ -16,7 +17,9 @@ export const SideBarButton: FC<{
     width: '100%',
     position: 'relative',
 }}>
-    {p.link === location.pathname && <ActiveLine/>}
+    <Location>
+        {({ location }) => p.link === location?.pathname && <ActiveLine/>}
+    </Location>
 
     {p.link.startsWith('http')
         ? <a href={p.link} target="_blank"><ButtonImage name={p.image}/></a>

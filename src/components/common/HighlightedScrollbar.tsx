@@ -6,6 +6,7 @@ import { Box } from '@chakra-ui/react'
 
 
 export const HighlightedScrollbar: FC = p => <Scrollbars
+    autoHide={false}
     autoHeight
     autoHeightMax="auto"
     // renderView={props => (
@@ -16,6 +17,7 @@ export const HighlightedScrollbar: FC = p => <Scrollbars
             ...style,
             backgroundColor: COLOR_THEME.active,
             width: '3px',
+            // overflowX: 'scroll'
         }}/>
     }>
     <Box>{p.children}</Box>

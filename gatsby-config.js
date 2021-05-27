@@ -1,10 +1,20 @@
 module.exports = {
     siteMetadata: {
         title: "Albero",
+        siteUrl: "https://www.example.com",
     },
     plugins: [
         "@chakra-ui/gatsby-plugin",
+        // "gatsby-plugin-ramda",
         "gatsby-plugin-image",
+
+        {
+            resolve: `gatsby-plugin-lodash`,
+            options: {
+                disabledFeatures: [`shorthands`, `cloning`],
+            },
+        },
+
         {
             resolve: "gatsby-plugin-react-svg",
             options: {

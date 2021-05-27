@@ -9,14 +9,15 @@ export const Layout: FC<{
     topBar: ReactNode
     sideBar: ReactNode
     content: ReactNode
+    withPadding?: boolean
 }> = p => <div>
     <TopBarLayout>{p.topBar}</TopBarLayout>
     <SideBarLayout>{p.sideBar}</SideBarLayout>
     <ContentLayout>
         <Scrollbars>
-            <ContentPadding>
-                {p.content}
-            </ContentPadding>
+            {p.withPadding
+                ? <ContentPadding>{p.content}</ContentPadding>
+                : <div>{p.content}</div>}
         </Scrollbars>
     </ContentLayout>
 </div>

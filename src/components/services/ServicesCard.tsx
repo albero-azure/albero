@@ -3,7 +3,6 @@ import { FC } from 'react'
 import { Box, Heading, Image } from '@chakra-ui/react'
 import { CloudService, CloudServiceGroup } from './CloudService'
 import { COLOR_THEME } from '../../theme/color'
-import { head } from 'ramda'
 import { Link } from 'gatsby'
 
 
@@ -25,7 +24,7 @@ export const ServicesCard: FC<{ group: CloudServiceGroup, service: CloudService 
         <Link to={serviceLink(group, service)}>
             <Image
                 alt={service.name}
-                src={head(service.images)}
+                src={service.images[0]}
                 fit="cover"
                 // objectPosition="top"
                 height="100px"
