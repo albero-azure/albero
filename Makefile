@@ -19,5 +19,5 @@ clean:
 
 ########################################################################################################################
 
-surge: build
-	@ npx surge ./public $$SURGE_DOMAIN
+surge:
+	@ $(RUN) npx surge ./public $$SURGE_DOMAIN
