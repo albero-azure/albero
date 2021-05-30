@@ -5,9 +5,13 @@ cache:
     - node_modules/
     - public/
 
-pages:
-  stage: deploy
+stages:
+  - deploy
+
+deploy:
   only: [ master ]
-  script: make build
-  artifacts:
-    paths: [ public ]
+  stage: deploy
+  script: make surge
+  environment:
+    name: surge
+    url: https://${SURGE_DOMAIN}

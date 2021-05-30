@@ -16,3 +16,8 @@ build:
 clean:
 	@- $(RUN) npm run clean
 	@- rm -rf ./node_modules
+
+########################################################################################################################
+
+surge: build
+	@ npx surge ./public $SURGE_DOMAIN
