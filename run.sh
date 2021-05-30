@@ -4,5 +4,5 @@
 if [[ -x "$(command -v nix-shell)" ]]; then
   nix-shell --run "$*"
 else
-  exec "$@"
+  "$@"
 fi

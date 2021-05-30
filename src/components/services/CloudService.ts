@@ -7,5 +7,6 @@ export interface CloudServiceGroup {
 export interface CloudService {
     name: string
     description: string
-    images: string[]
+    preview: string
+    items: string[]
 }

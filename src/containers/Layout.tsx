@@ -17,7 +17,7 @@ export const Layout: FC<{
         <Scrollbars>
             {p.withPadding
                 ? <ContentPadding>{p.content}</ContentPadding>
-                : <div>{p.content}</div>}
+                : <div style={{ height: '100%' }}>{p.content}</div>}
         </Scrollbars>
     </ContentLayout>
 </div>

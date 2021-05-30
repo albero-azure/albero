@@ -25,24 +25,24 @@ export default ({ location }) => {
     const fs = useCallback(findService(g, s), [g, s])
 
     const service: CloudService = useMemo<CloudService>(() => fs(mainpage.groups), [fs])
-
-    const { images } = service ?? {}
-    const [image, setImage] = useState(images?.[0])
+    
+    const { items } = service ?? {}
+    const [item, setItem] = useState(items?.[0])
 
     const [zoomIn, setZoomIn] = useState(false)
     const [zoomOut, setZoomOut] = useState(false)
     useEffect(() => {
-        setZoomIn(hasNext(image, images))
-        setZoomOut(hasPrev(image, images))
-    }, [image])
+        setZoomIn(hasNext(item, items))
+        setZoomOut(hasPrev(item, items))
+    }, [item])
 
     const clickZoomIn = () => {
         if (!zoomIn) return
-        setImage(findNext(image, images))
+        setItem(findNext(item, items))
     }
     const clickZoomOut = () => {
         if (!zoomOut) return
-        setImage(findPrev(image, images))
+        setItem(findPrev(item, items))
     }
 
     return <Page fullSize topBar={
@@ -51,8 +51,13 @@ export default ({ location }) => {
                 isZoomIn={zoomIn} isZoomOut={zoomOut}
         />
     }>
-        {service && <div style={{ overflow: 'visible' }}>
-            <img alt={service.name} src={image} style={{ maxWidth: 'unset' }}/>
+        {service && <div style={{ overflow: 'visible', width: '100%', height: '100%' }}>
+            <div style={{ width: '100%', height: '100%' }}
+                 dangerouslySetInnerHTML={{
+                     __html: `<iframe style="width: 100%; height: 100%" src="${item}" />`
+                 }}
+            />
+            {/*<img alt={service.name} src={image} style={{ maxWidth: 'unset' }}/>*/}
         </div>}
     </Page>
 }

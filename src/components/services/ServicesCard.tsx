@@ -24,7 +24,7 @@ export const ServicesCard: FC<{ group: CloudServiceGroup, service: CloudService 
         <Link to={serviceLink(group, service)}>
             <Image
                 alt={service.name}
-                src={service.images[0]}
+                src={service.preview}
                 fit="cover"
                 // objectPosition="top"
                 height="100px"
