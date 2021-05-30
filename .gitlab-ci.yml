@@ -1,0 +1,13 @@
+image: node:16
+
+cache:
+  paths:
+    - node_modules/
+    - public/
+
+pages:
+  stage: deploy
+  only: [ master ]
+  script: make build
+  artifacts:
+    paths: [ public ]
