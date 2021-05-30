@@ -20,4 +20,4 @@ clean:
 ########################################################################################################################
 
 surge: build
-	@ npx surge ./public $SURGE_DOMAIN
+	@ npx surge ./public $$SURGE_DOMAIN
