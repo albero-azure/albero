@@ -2,30 +2,32 @@
 import { filter, mainpage } from '../../config/content.yml'
 
 import * as React from 'react'
-import { FC, useCallback, useEffect, useMemo, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import * as queryString from 'query-string'
 import { Button, Center, Heading, HStack, VStack } from '@chakra-ui/react'
 import { Page } from '../containers/Page'
-import { CloudService } from '../components/services/CloudService'
-import { find, get, pipe } from 'lodash/fp'
+import { CloudService, CloudServiceGroup } from '../components/services/CloudService'
 import ZoomIn from '../images/ZoomIn.svg'
 import ZoomOut from '../images/ZoomOut.svg'
 import { findNext, findPrev, hasNext, hasPrev } from '../util/collection'
 
 
-const findService = (g: string, s: string) => pipe(
-    find({ name: g }),
-    get('services'),
-    find({ name: s }),
-)
+const findService: any = (g: string, s: string) => {
+    const groups: CloudServiceGroup[] = mainpage.groups
+
+    const [group] = groups.filter(e => e.name === g)
+    if (!group) return
+
+    const [service] = group.services.filter(e => e.name === s)
+    return service
+}
 
 
 export default ({ location }) => {
-    const { g, s }: any = useMemo(() => location.search ? queryString.parse(location.search) : {}, [location])
-    const fs = useCallback(findService(g, s), [g, s])
+    const { g, s }: any = location.search ? queryString.parse(location.search) : {}
 
-    const service: CloudService = useMemo<CloudService>(() => fs(mainpage.groups), [fs])
-    
+    const service: CloudService = findService(g, s)
+
     const { items } = service ?? {}
     const [item, setItem] = useState(items?.[0])
 
