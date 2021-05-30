@@ -3,13 +3,13 @@ import { filter, mainpage } from '../../config/content.yml'
 
 import * as React from 'react'
 import { FC, useEffect, useState } from 'react'
-import * as queryString from 'query-string'
 import { Button, Center, Heading, HStack, VStack } from '@chakra-ui/react'
 import { Page } from '../containers/Page'
 import { CloudService, CloudServiceGroup } from '../components/services/CloudService'
 import ZoomIn from '../images/ZoomIn.svg'
 import ZoomOut from '../images/ZoomOut.svg'
 import { findNext, findPrev, hasNext, hasPrev } from '../util/collection'
+import { useQueryParam } from 'use-query-params'
 
 
 const findService: any = (g: string, s: string) => {
@@ -23,8 +23,9 @@ const findService: any = (g: string, s: string) => {
 }
 
 
-export default ({ location }) => {
-    const { g, s }: any = location.search ? queryString.parse(location.search) : {}
+export default () => {
+    const [g] = useQueryParam('g')
+    const [s] = useQueryParam('s')
 
     const service: CloudService = findService(g, s)
 

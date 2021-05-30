@@ -34,6 +34,7 @@
     "gatsby-plugin-react-svg": "^3.0.1",
     "gatsby-plugin-sharp": "^3.4.0",
     "gatsby-plugin-sitemap": "^4.0.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
@@ -43,6 +44,7 @@
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "surge": "^0.23.0"
+    "surge": "^0.23.0",
+    "use-query-params": "^1.2.2"
   }
 }
