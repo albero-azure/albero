@@ -1,13 +1,9 @@
 RUN := ./run.sh
 
 
-dev develop: dependencies
-	$(RUN) npm run develop
-
-dep dependencies:
+dev develop:
 	@ [ ! -d node_modules ] && $(RUN) npm i; true
-
-########################################################################################################################
+	$(RUN) npm run develop
 
 build:
 	@ $(RUN) npm i
@@ -19,5 +15,5 @@ clean:
 
 ########################################################################################################################
 
-surge:
+surge: build
 	@ $(RUN) npx surge ./public $$SURGE_DOMAIN
