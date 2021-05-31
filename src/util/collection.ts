@@ -16,3 +16,9 @@ export const findPrev = <T = string>(element: T, collection: T[]): T | undefined
 
 export const hasPrev = <T = string>(element: T, collection: T[]): boolean =>
     collection.indexOf(element) > 0
+
+
+export const isIntersect = <T>(c1: T[], c2: T[]) => {
+    for (const c of c1) if (c2.indexOf(c) >= 0) return true
+    return false
+}

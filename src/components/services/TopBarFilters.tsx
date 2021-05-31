@@ -22,6 +22,7 @@ export const TopBarFilters: FC<{
         lineHeight="20px"
         letterSpacing="0em"
         textAlign="left"
+        onChange={e => p.onChange(e.target.value)}
     >
         {p.options.map(e => <option key={e} value={e}>{e}</option>)}
     </Select>

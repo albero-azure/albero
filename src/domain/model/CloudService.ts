@@ -1,7 +1,4 @@
-export interface CloudServiceGroup {
-    name: string
-    services: CloudService[]
-}
+import { CloudFilter } from './CloudFilter'
 
 
 export interface CloudService {
@@ -9,4 +6,5 @@ export interface CloudService {
     description: string
     preview: string
     items: string[]
+    filter: CloudFilter
 }

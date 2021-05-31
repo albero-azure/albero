@@ -1,9 +1,10 @@
 import * as React from 'react'
 import { FC } from 'react'
 import { Box, Heading, Image } from '@chakra-ui/react'
-import { CloudService, CloudServiceGroup } from './CloudService'
+import { CloudService } from '../../domain/model/CloudService'
 import { COLOR_THEME } from '../../theme/color'
 import { Link } from 'gatsby'
+import { CloudServiceGroup } from '../../domain/model/CloudServiceGroup'
 
 
 const serviceLink = (g: CloudServiceGroup, s: CloudService) => `/service?g=${g.name}&s=${s.name}`

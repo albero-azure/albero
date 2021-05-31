@@ -34,6 +34,9 @@ mainpage:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            platforms:
+              - Platform 2
 
         - name: Azure Data Services 2
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -42,6 +45,9 @@ mainpage:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            technologies:
+              - Technology 3
 
         - name: Azure Data Services 3
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -50,8 +56,11 @@ mainpage:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            platforms:
+              - Platform 1
 
-        - name: Azure Data Services 4
+        - name: Test Search 1
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           preview: /common/Legend.png
           items:
@@ -60,7 +69,7 @@ mainpage:
             - /services/azure/mainDT_2.html
 
         - name: Azure Data Services 5
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          description: Try search somthing in description
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
@@ -75,13 +84,16 @@ mainpage:
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
 
-        - name: Azure Data Services 7
+        - name: Test Search 2
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            platforms:
+              - Platform 1
 
         - name: Azure Data Services 8
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -90,6 +102,9 @@ mainpage:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            platforms:
+              - Platform 1
 
     - name: Favourites 2
       services:
@@ -144,13 +159,19 @@ mainpage:
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
 
-        - name: Azure Data Services 4
+        - name: Test Search 3
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
             - /services/azure/mainDT_2.html
+          filter:
+            viewpoints:
+              - Viewpoint 1
+              - Viewpoint 3
+            technologies:
+              - Technology 3
 
         - name: Azure Data Services 5
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

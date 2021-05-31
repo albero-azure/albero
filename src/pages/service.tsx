@@ -5,11 +5,12 @@ import * as React from 'react'
 import { FC, useEffect, useState } from 'react'
 import { Button, Center, Heading, HStack, VStack } from '@chakra-ui/react'
 import { Page } from '../containers/Page'
-import { CloudService, CloudServiceGroup } from '../components/services/CloudService'
+import { CloudService } from '../domain/model/CloudService'
 import ZoomIn from '../images/ZoomIn.svg'
 import ZoomOut from '../images/ZoomOut.svg'
 import { findNext, findPrev, hasNext, hasPrev } from '../util/collection'
 import { useQueryParam } from 'use-query-params'
+import { CloudServiceGroup } from '../domain/model/CloudServiceGroup'
 
 
 const findService: any = (g: string, s: string) => {
