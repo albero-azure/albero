@@ -1,54 +1,67 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Albero NG
 
-## 🚀 Quick start
+[Albero](https://albero.surge.sh)
 
-1. **Create a Gatsby site.**
+New redesigned version of Albero project Public Representation. Helping to Choose the Right Data Backend Technology on
+Azure
 
-   Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Here is the main representation of Decision Tree for Data Backend Technologies for Azure. Please use this HTML file for
+a simple navigation. Click on drill down to be redirected to the subsequent Decision Trees
 
-   ```shell
-   # create a new Gatsby site using the minimal starter
-   npm init gatsby
-   ```
+## Команды
 
-2. **Start developing.**
+- `make develop`: запуск локального сервера разработки
+- `make build`: установит зависимости и соберет
+- `make clean`: удалит кеш и артефакты
+- `make surge`: соберет и развернет на surge.sh
 
-   Navigate into your new site’s directory and start it up.
+## Конфигурация
 
-   ```shell
-   cd my-gatsby-site/
-   npm run.sh develop
-   ```
+### config/settings.yml
 
-3. **Open the code and start customizing!**
+```yaml
+search:
+  debounce: 500 # ms, время задержки между нажатием клавиш в строке поиска
+```
 
-   Your site is now running at http://localhost:8000!
+### config/content.yml
 
-   Edit `src/pages/index.js` to see your site update in real-time!
+```yaml
+sidebar:
+  link:
+    home: /
+    repo: https://github.com/Albero/Albero
+    share: /share
+    contact: /contact
 
-4. **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+filter:
+  platforms:
+    - Platform 1
+    - Platform 2
+    - Platform 3
+  technologies:
+    - Technology 1
+    - Technology 2
+    - Technology 3
+  viewpoints:
+    - Viewpoint 1
+    - Viewpoint 2
+    - Viewpoint 3
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+mainpage:
+  groups:
+    - name: Azure Services
+      services:
+        - name: Data Services
+          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          preview: /services/azure/mainDT_0.png
+          items:
+            - /services/azure/mainDT_0.html
+            - /services/azure/mainDT_1.html
+            - /services/azure/mainDT_2.html
+          filter:
+            platforms:
+              - Platform 2
+```

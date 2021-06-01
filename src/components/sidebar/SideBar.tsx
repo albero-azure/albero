@@ -14,7 +14,7 @@ export const SideBar: FC = () => <div>
     </Center>
 
     <SideBarButton image="Home" link={sidebar.link.home}/>
-    <SideBarButton image="GitHub" link={sidebar.link.github}/>
+    <SideBarButton image="GitHub" link={sidebar.link.repo}/>
     <SideBarButton image="Share" link={sidebar.link.share}/>
     <SideBarButton image="Contact" link={sidebar.link.contact}/>
 </div>
