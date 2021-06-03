@@ -12,14 +12,17 @@ filter:
 
   technologies:
     - General
+    - Analytics
     - Caching
     - Data Lake
+    - IoT
     - MySQL
     - NoSQL
     - PostgreSQL
     - SQL Server / Database
     - Spark
     - Streaming
+    - Time-Series
 
   viewpoints:
     - General
@@ -33,6 +36,7 @@ mainpage:
       services:
         - name: Azure Data Services
           description: This is the main Decision Tree focused on selecting proper data technology on Azure.
+          preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
@@ -44,14 +48,14 @@ mainpage:
               - General
             technologies:
               - General
+              - Analytics
+              - Time-Series
 
-        - name: Azure Data Programmability
+        - name: Azure Data Dev View
           description: This Decision Tree is focused on languages, file formats, SDKs and limitations of Azure Data Services.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
           filter:
             platforms:
               - Azure
@@ -65,8 +69,6 @@ mainpage:
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
           filter:
             platforms:
               - Azure
@@ -82,8 +84,6 @@ mainpage:
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
           filter:
             platform:
               - Azure
@@ -92,86 +92,130 @@ mainpage:
             technologies:
               - SQL Server / Database
 
-        - name: Azure Data Services 2
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        - name: Streaming on Azure
+          description: On this diagram you can find all the possible options to handle real-time data streaming and processing.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Streaming
 
-        - name: Azure Data Services 3
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        - name: PostgreSQL on Azure
+          description: There are multiple options to run PostgreSQL on Azure. Find out more here.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - PostgreSQL
+
+        - name: Spark on Azure
+          description: Spark is an extremely popular technology and we have several options to run in on Azure.
+          preview: /common/Legend.png
+          items:
+            - /services/azure/mainDT_0.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Spark
+
+        - name: NoSQL on Azure
+          description: This Decisison Tree covers various options for NoSQL on Azure including Cosmos DB.
+          preview: /common/Legend.png
+          items:
+            - /services/azure/mainDT_0.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - NoSQL
+
+        - name: MySQL on Azure
+          description: This Decisison Tree covers MySQL and MariaDB options on Azure.
+          preview: /common/Legend.png
+          items:
+            - /services/azure/mainDT_0.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - MySQL
+
+        - name: Caching on Azure
+          description: Redis SKUs (including Redis Enterprise)and other caching solutions (Memcached, Cosmos DB) are covered.
+          preview: /common/Legend.png
+          items:
+            - /services/azure/mainDT_0.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Caching
+
+        - name: Data Lake on Azure
+          description: This diagram answers the question on when to use which Storage for Data Lake deployments on Azure.
+          preview: /common/Legend.png
+          items:
+            - /services/azure/mainDT_0.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Data Lake
 
     - name: Solutions Gallery
       services:
-        - name: Azure Data Services 1
+        - name: IoT on Azure
           link: https://albero.cloud/mainDT_2.png
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          description: This diagram gives you some basic understanding of designing data-heavy IoT solutions on Azure.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
-
-        - name: Azure Data Services 2
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
-
-        - name: Azure Data Services 3
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
-
-        - name: Test Search 3
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
           filter:
-            viewpoints:
-              - Viewpoint 1
-              - Viewpoint 3
+            platform: 
+              - Azure
+            viewpoints: 
+              - Industry
             technologies:
-              - Technology 3
-
-        - name: Azure Data Services 5
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
+              - IoT
+              - Time-Series
 
     - name: Useful Materials
       services:
-        - name: Azure Data Services 1
-          link: https://albero.cloud/mainDT_2.png
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
+        - name: How to Select Data Tech on Azure
+          link: https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
+          description: This article explains why and how we have build Albero project.
+          preview: https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
+          filter:
+          platform: 
+            - Azure
+          viewpoints: 
+            - General
+          technologies:
+            - General
 
         - name: Azure Data Services 2
           description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
-            - /services/azure/mainDT_1.html
-            - /services/azure/mainDT_2.html
