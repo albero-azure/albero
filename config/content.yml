@@ -35,7 +35,7 @@ mainpage:
     - name: Main Decision Trees
       services:
         - name: Azure Data Services
-          description: This is the main Decision Tree focused on selecting proper data technology on Azure.
+          description: This is the main Decision Tree focused on selecting proper data backend technology on Azure.
           preview: /common/Legend.png
           items:
             - /services/azure/mainDT_0.html
@@ -206,6 +206,8 @@ mainpage:
           link: https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
           description: This article explains why and how we have build Albero project.
           preview: https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
+          items:
+            - https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
           filter:
           platform: 
             - Azure
