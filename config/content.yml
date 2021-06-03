@@ -1,9 +1,9 @@
 sidebar:
   link:
     home: /
-    repo: https://github.com/Albero/Albero
-    share: /share
-    contact: /contact
+    repo: https://github.com/albero-azure/albero/issues
+    share: /
+    contact: /
 
 
 filter:
@@ -11,15 +11,21 @@ filter:
     - Azure
 
   technologies:
-    - Technology 1
-    - Technology 2
-    - Technology 3
+    - General
+    - Caching
+    - Data Lake
+    - MySQL
+    - NoSQL
+    - PostgreSQL
+    - SQL Server
+    - Spark
+    - Streaming
 
   viewpoints:
-    - Viewpoint 1
-    - Viewpoint 2
-    - Viewpoint 3
-
+    - General
+    - Security
+    - Developer
+    - Industry
 
 mainpage:
   groups:
