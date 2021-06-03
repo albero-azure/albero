@@ -8,9 +8,7 @@ sidebar:
 
 filter:
   platforms:
-    - Platform 1
-    - Platform 2
-    - Platform 3
+    - Azure
 
   technologies:
     - Technology 1
