@@ -55,7 +55,7 @@ mainpage:
           description: This Decision Tree is focused on languages, file formats, SDKs and limitations of Azure Data Services.
           preview: /services/azure/DTAzureDev.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/dev.html
           filter:
             platforms:
               - Azure
@@ -107,9 +107,9 @@ mainpage:
 
         - name: PostgreSQL on Azure
           description: There are multiple options to run PostgreSQL on Azure. Find out more here.
-          preview: /common/Legend.png
+          preview: /services/azure/DTPostgreSQL.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/postgresql.html
           filter:
             platform:
               - Azure
@@ -120,9 +120,9 @@ mainpage:
 
         - name: Spark on Azure
           description: Spark is an extremely popular technology and we have several options to run in on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTSpark.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/spark.html
           filter:
             platform:
               - Azure
@@ -146,9 +146,9 @@ mainpage:
 
         - name: MySQL on Azure
           description: This Decisison Tree covers MySQL and MariaDB options on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTMySQL.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/mysql.html
           filter:
             platform:
               - Azure
@@ -159,9 +159,9 @@ mainpage:
 
         - name: Caching on Azure
           description: Redis SKUs (including Redis Enterprise)and other caching solutions (Memcached, Cosmos DB) are covered.
-          preview: /common/Legend.png
+          preview: /services/azure/DTRedis.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/redis.html
           filter:
             platform:
               - Azure
@@ -172,9 +172,9 @@ mainpage:
 
         - name: Data Lake on Azure
           description: This diagram answers the question on when to use which Storage for Data Lake deployments on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTStorage.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/storage.html
           filter:
             platform:
               - Azure
