@@ -36,7 +36,7 @@ mainpage:
       services:
         - name: Azure Data Services
           description: This is the main Decision Tree focused on selecting proper data backend technology on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/mainDT_2.png
           items:
             - /services/azure/mainDT_0.html
             - /services/azure/mainDT_1.html
@@ -53,7 +53,7 @@ mainpage:
 
         - name: Azure Data Dev View
           description: This Decision Tree is focused on languages, file formats, SDKs and limitations of Azure Data Services.
-          preview: /common/Legend.png
+          preview: /services/azure/DTAzureDev.png
           items:
             - /services/azure/mainDT_0.html
           filter:
@@ -66,9 +66,9 @@ mainpage:
 
         - name: Azure Data Security
           description: This is a Decision Tree focused on Security aspects, such as Priviliges, Networking and Encryption.
-          preview: /common/Legend.png
+          preview: /services/azure/DTAzureSecurity.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/security.html
           filter:
             platforms:
               - Azure
@@ -94,9 +94,9 @@ mainpage:
 
         - name: Streaming on Azure
           description: On this diagram you can find all the possible options to handle real-time data streaming and processing.
-          preview: /common/Legend.png
+          preview: /services/azure/DTStreaming.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/streaming.html
           filter:
             platform:
               - Azure
