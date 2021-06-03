@@ -81,9 +81,9 @@ mainpage:
       services:
         - name: SQL Database on Azure
           description: Here you can find the guidance on various service tiers for SQL Database on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTAzureSQL.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/azuresql.html
           filter:
             platform:
               - Azure
@@ -133,9 +133,9 @@ mainpage:
 
         - name: NoSQL on Azure
           description: This Decisison Tree covers various options for NoSQL on Azure including Cosmos DB.
-          preview: /common/Legend.png
+          preview: /services/azure/DTCosmosDB.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/cosmos.html
           filter:
             platform:
               - Azure
