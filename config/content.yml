@@ -216,8 +216,3 @@ mainpage:
           technologies:
             - General
 
-        - name: Azure Data Services 2
-          description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          preview: /common/Legend.png
-          items:
-            - /services/azure/mainDT_0.html
