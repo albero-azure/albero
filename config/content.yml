@@ -216,3 +216,18 @@ mainpage:
           technologies:
             - General
 
+        - name: Azure Synapse Features
+          link: /services/azure/DTSynapse.html
+          description: All the Synapse Features and components on on DT.
+          preview: /services/azure/DT_Synapse_Components.png
+          items:
+            - /services/azure/DTSynapse.html
+          filter: 
+            platform: 
+              - Azure
+            viewpoints:
+              - Security
+              - General
+            technologies:
+              - Analytics
+
