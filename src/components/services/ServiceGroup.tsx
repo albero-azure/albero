@@ -1,7 +1,8 @@
 import * as React from 'react'
 import { FC, useEffect, useState } from 'react'
+import '../../theme/OverlayScrollbars.css'
 import { Divider, Heading, HStack, Stack } from '@chakra-ui/react'
-import { HighlightedScrollbar } from '../common/HighlightedScrollbar'
+import { OverlayScrollbarsComponent } from 'overlayscrollbars-react'
 import { ServicesCard } from './ServicesCard'
 import { CloudServiceGroup } from '../../domain/model/CloudServiceGroup'
 import { CloudFilter } from '../../domain/model/CloudFilter'
@@ -36,10 +37,10 @@ export const ServiceGroup: FC<{
 
         <Divider/>
 
-        <HighlightedScrollbar>
+        <OverlayScrollbarsComponent>
             <HStack m={2} p={6} spacing={6}>
                 {services.map(e => <ServicesCard key={e.name} group={group} service={e}/>)}
             </HStack>
-        </HighlightedScrollbar>
+        </OverlayScrollbarsComponent>
     </Stack>
 }

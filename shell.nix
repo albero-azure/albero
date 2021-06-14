@@ -3,5 +3,5 @@
 with pkgs;
 
 mkShell {
-  nativeBuildInputs = [ nodejs-16_x ];
+  nativeBuildInputs = [ nodejs-16_x caddy ];
 }

@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 import { CloudServiceGroup } from '../../domain/model/CloudServiceGroup'
 
 
-const serviceLink = (g: CloudServiceGroup, s: CloudService) => `/service?g=${g.name}&s=${s.name}`
+const serviceLink = (g: CloudServiceGroup, s: CloudService) => `/service#g=${g.name}&s=${s.name}`
 
 
 export const ServicesCard: FC<{ group: CloudServiceGroup, service: CloudService }> = ({ group, service }) => <Box
@@ -22,7 +22,7 @@ export const ServicesCard: FC<{ group: CloudServiceGroup, service: CloudService 
             {service.name}
         </Heading>
 
-        <Link to={serviceLink(group, service)}>
+        <Link to={service.link ?? serviceLink(group, service)} target={service.link ? '_blank' : undefined}>
             <Image
                 alt={service.name}
                 src={service.preview}

@@ -4,12 +4,12 @@ import { filter, mainpage } from '../../config/content.yml'
 import * as React from 'react'
 import { FC, useEffect, useState } from 'react'
 import { Button, Center, Heading, HStack, VStack } from '@chakra-ui/react'
+import queryString from 'query-string'
 import { Page } from '../containers/Page'
 import { CloudService } from '../domain/model/CloudService'
 import ZoomIn from '../images/ZoomIn.svg'
 import ZoomOut from '../images/ZoomOut.svg'
 import { findNext, findPrev, hasNext, hasPrev } from '../util/collection'
-import { useQueryParam } from 'use-query-params'
 import { CloudServiceGroup } from '../domain/model/CloudServiceGroup'
 
 
@@ -24,13 +24,13 @@ const findService: any = (g: string, s: string) => {
 }
 
 
-export default () => {
-    const [g] = useQueryParam('g')
-    const [s] = useQueryParam('s')
+export default ({ location }) => {
+    const hash = location.hash.replace(/^#/, '')
+    const { g, s } = queryString.parse(hash)
 
     const service: CloudService = findService(g, s)
 
-    const { items } = service ?? {}
+    const { items } = service ?? { items: [] }
     const [item, setItem] = useState(items?.[0])
 
     const [zoomIn, setZoomIn] = useState(false)

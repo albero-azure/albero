@@ -4,11 +4,9 @@ module.exports = {
         siteUrl: "https://www.example.com",
     },
     plugins: [
-        "gatsby-plugin-use-query-params",
         "@chakra-ui/gatsby-plugin",
         // "gatsby-plugin-ramda",
         "gatsby-plugin-image",
-
         {
             resolve: `gatsby-plugin-lodash`,
             options: {

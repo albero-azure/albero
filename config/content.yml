@@ -72,7 +72,7 @@ mainpage:
           filter:
             platforms:
               - Azure
-            viewpoints: 
+            viewpoints:
               - Security
             technologies:
               - General
@@ -192,9 +192,9 @@ mainpage:
           items:
             - /services/azure/mainDT_0.html
           filter:
-            platform: 
+            platform:
               - Azure
-            viewpoints: 
+            viewpoints:
               - Industry
             technologies:
               - IoT
@@ -209,9 +209,9 @@ mainpage:
           items:
             - https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
           filter:
-          platform: 
+          platform:
             - Azure
-          viewpoints: 
+          viewpoints:
             - General
           technologies:
             - General
@@ -222,8 +222,8 @@ mainpage:
           preview: /services/azure/DT_Synapse_Components.png
           items:
             - /services/azure/DTSynapse.html
-          filter: 
-            platform: 
+          filter:
+            platform:
               - Azure
             viewpoints:
               - Security

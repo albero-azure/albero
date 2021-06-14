@@ -13,6 +13,7 @@ a simple navigation. Click on drill down to be redirected to the subsequent Deci
 - `make develop`: запуск локального сервера разработки
 - `make build`: установит зависимости и соберет
 - `make clean`: удалит кеш и артефакты
+- `make server`: себерет и запустит локальный сервер (PORT=8000 by default)
 - `make surge`: соберет и развернет на surge.sh
 
 ## Конфигурация

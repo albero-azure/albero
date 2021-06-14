@@ -21,6 +21,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@types/lodash": "^4.14.170",
+    "@types/overlayscrollbars": "^1.12.0",
     "@types/react-custom-scrollbars": "^4.0.7",
     "emotion-theming": "^11.0.0",
     "framer-motion": "^4.1.11",
@@ -34,17 +35,16 @@
     "gatsby-plugin-react-svg": "^3.0.1",
     "gatsby-plugin-sharp": "^3.4.0",
     "gatsby-plugin-sitemap": "^4.0.0",
-    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "lodash": "^4.17.21",
+    "overlayscrollbars-react": "^0.2.2",
     "query-string": "^7.0.0",
-    "react": "^17.0.1",
+    "react": "^16.4.0",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "surge": "^0.23.0",
-    "use-query-params": "^1.2.2"
+    "surge": "^0.23.0"
   }
 }
