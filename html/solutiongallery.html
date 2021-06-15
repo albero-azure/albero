@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179718917-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179718917-1');
+    </script>
+
+
+    <title>Albero Azure Decision Tree for Data: Solution Gallery</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/albero.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body>
+    <div class="menu">
+		<div class="submenu"><a class="link" href="/index.html"><img src="images\menu\menu-home.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="https://github.com/albero-azure/albero/issues"><img alt="GitHub" src="images\menu\menu-git.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img alt="Chat Bot" src="images\menu\menu-bot.png"></a></div>
+		<div class="submenu"><a class="link" href="#"><img alt="Search" src="images\menu\menu-search.png"></a></div>
+		<div class="submenu line">&nbsp;</div>
+		<div class="submenu"><a class="link" href="/html/forlang.html">Developer View</a></div>
+		<div class="submenu"><a class="link" href="/html/securityview.html">Security View</a></div>
+		<div class="submenu"><a class="link" href="/html/legend.html">Legend</a></div>
+		<div class="submenu"><a class="link" href="/html/profiles.html">Profiles</a></div>
+		<div class="submenu"><a class="link" href="/html/solutiongallery.html">Solution Gallery</a></div>
+		<div class="submenu"><a class="link" href="/faq.md">FAQ</a></div>
+    </div>
+	<div class="topnav">
+		<a href="/index.html" class="active"><img src="images\menu\menu-home.png"></a>
+		<div id="myLinks">
+			<a href="/html/forlang.html">Developer View</a>
+			<a href="/html/securityview.html">Security View</a>
+			<a href="/html/legend.html">Legend</a>
+			<a href="/html/profiles.html">Profiles</a>
+			<a href="/html/solutiongallery.html">Solution Gallery</a>
+			<a href="/faq.md">FAQ</a>
+		</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+	</a>
+	</div>
+	<div style="overflow: auto;">
+	<img src="/images/DTIOT.png" alt="Albero Decision Tree IoT" usemap="#map" />
+	<map name="map">
+		<!--Azure IoT Hub-->
+		<area shape="rect" coords="1731, 470, 1897, 663" id="Azure IoT Hub" alt="Azure IoT Hub" href="https://azure.microsoft.com/en-us/services/iot-hub/"/>
+		<!--Azure IoT Hub Parameters-->
+		<area shape="rect" coords="1728, 733, 1816, 778" alt="IoT Hub SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/iot-hub/v1_2/"/>
+		<area shape="rect" coords="1822, 682, 1906, 725" alt="IoT Hub Retention" href="https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/iot-hub-limits.md"/>
+		<area shape="rect" coords="1727, 681, 1816, 728" alt="IoT Hub HA" href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-ha-dr"/>
+		<!--Azure IoT Hub Integration-->
+		<area shape="rect" coords="1998, 685, 2060, 743" alt="IoT Hub Integration Event Grid Out" href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-event-grid" />
+		<area shape="rect" coords="1994, 615, 2060, 669" alt="IoT Hub Integration Service Bus Out" href="https://docs.microsoft.com/en-us/azure/iot-hub/tutorial-routing"/>
+		<area shape="rect" coords="1994, 546, 2067, 605" alt="IoT Hub Integration Time Series Insights Out" href="https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-ingest-data-iot-hub"/>
+		<area shape="rect" coords="1997, 465, 2065, 530" alt="IoT Hub Integration Event Hub Out" href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-d2c"/>
+		<area shape="rect" coords="1900, 617, 1961, 667" alt="IoT Hub Integration Stream Analytics Out" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-get-started-with-azure-stream-analytics-to-process-data-from-iot-devices"/>
+		<area shape="rect" coords="1904, 539, 1958, 600" alt="IoT Hub Integration Data Lake Out" href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-d2c#azure-blob-storage"/>
+		<area shape="rect" coords="1901, 473, 1961, 530" alt="IoT Hub Integration Data Explorer Out" href="https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-iot-hub"/>
+		
+		<!--Azure AKS-->	
+		<area shape="rect" coords="2638, 1517, 2811, 1667" id="Azure Kubernetes Service" alt="Azure Kubernetes Service" href="https://azure.microsoft.com/en-us/services/kubernetes-service/"/>
+		<!--Azure AKS Parameters-->
+		<area shape="rect" coords="2634, 1750, 2734, 1796" alt="Azure Kubernetes Service SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/"/>
+		<area shape="rect" coords="2632, 1683, 2732, 1746" alt="Azure Kubernetes Service HA" href="https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region#plan-for-multiregion-deployment" />
+		
+		<!--Azure Functions-->	
+		<area shape="rect" coords="2235, 1519, 2374, 1663" id="Azure Functions" alt="Azure Functions" href="https://azure.microsoft.com/en-us/services/functions/"/>
+		<!--Azure Functions Integration-->
+		<area shape="rect" coords="2203, 1740, 2298, 1792" alt="Azure Functions input bindings" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp#supported-bindings"/>
+		<area shape="rect" coords="2205, 1683, 2298, 1740" alt="Azure Functions output bindings" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp#supported-bindings"/>
+		<!--Azure Functions Parameters-->
+		<area shape="rect" coords="2378, 1529, 2445, 1584" alt="Azure Functions HA" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-geo-disaster-recovery"/>
+		<area shape="rect" coords="2152, 1526, 2218, 1585" alt="Azure Functions SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/functions/v1_1/"/>
+		
+		<!--Azure AKS-->
+		<area shape="rect" coords="1761, 1519, 1930, 1672" id="Azure Kubernetes Service" alt="Azure Kubernetes Service" href="https://azure.microsoft.com/en-us/services/kubernetes-service/"/>
+		<!--Azure AKS Parameters-->
+		<area shape="rect" coords="1753, 1746, 1844, 1793" alt="Azure Kubernetes Service SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/kubernetes-service/v1_1/"/>
+		<area shape="rect" coords="1755, 1682, 1845, 1744" alt="Azure Kubernetes Service HA" href="https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region#plan-for-multiregion-deployment"/>
+		<area shape="rect" coords="1899, 1774, 1966, 1834" alt="Azure Kubernetes Service Azure ML" href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python" />
+		
+		<!--Azure Functions-->	
+		<area shape="rect" coords="1470, 1520, 1615, 1680" id="Azure Functions" alt="Azure Functions" href="https://azure.microsoft.com/en-us/services/functions/"/>
+		<!--Azure Functions Parameters-->
+		<area shape="rect" coords="1445, 1757, 1541, 1807" alt="Azure Functions SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/functions/v1_1/"/>
+		<area shape="rect" coords="1444, 1691, 1543, 1752" alt="Azure Functions HA" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-geo-disaster-recovery"/>
+		<area shape="rect" coords="1590, 1772, 1659, 1835" alt="Azure Functions Azure ML" href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-functions"/>
+		<!--Azure Functions Integration-->
+		<area shape="rect" coords="1604, 1529, 1678, 1593" alt="Azure Functions output bindings" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp#supported-bindings"/>
+		<area shape="rect" coords="1404, 1530, 1467, 1587" alt="Azure Functions input bindings" href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp#supported-bindings"/>
+		
+		<!--Azure Databricks-->
+		<area shape="rect" coords="1195, 1507, 1350, 1676" id="Azure Databricks" alt="Azure Databricks" href="https://azure.microsoft.com/en-us/services/databricks/" />
+		<!--Azure Databricks Parameters-->
+		<area shape="rect" coords="1179, 1750, 1268, 1796" alt="Azure Databricks SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/databricks/v1_0/"/>
+		<area shape="rect" coords="1281, 1690, 1358, 1744" alt="Azure Databricks Storage" href="https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/azure-storage"/>
+		<area shape="rect" coords="1178, 1687, 1274, 1747" alt="Azure Databricks High Availability" href="https://docs.microsoft.com/en-us/azure/databricks/administration-guide/disaster-recovery"/>
+		<area shape="rect" coords="1318, 1766, 1388, 1829" alt="Azure Databricks ML" href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-databricks-automl-environment"/>
+		
+		<!--Azure Stream Analytics-->	
+		<area shape="rect" coords="754, 1500, 890, 1669" id="Azure Stream Analytics" alt="Azure Stream Analytics" href="https://azure.microsoft.com/en-us/services/stream-analytics/" />
+		<!--Azure Stream Analytics Integration-->		
+		<area shape="rect" coords="1069, 1641, 1131, 1699" alt="Azure Stream Analytics Integration Out Blob" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="1072, 1568, 1131, 1629" alt="Azure Stream Analytics Integration Out MessageBus" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="1071, 1495, 1134, 1557" alt="Azure Stream Analytics Integration Out Functions" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="989, 1639, 1048, 1700" alt="Azure Stream Analytics Integration Out Synapse" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="986, 1566, 1047, 1627" alt="Azure Stream Analytics Integration Out Azure SQL" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="985, 1495, 1048, 1555" alt="Azure Stream Analytics Integration Out ADLS" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="903, 1636, 966, 1692" alt="Azure Stream Analytics Integration Out Cosmos" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="897, 1562, 962, 1624" alt="Azure Stream Analytics Integration Out PowerBI" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="904, 1494, 965, 1553" alt="Azure Stream Analytics Integration Out Event Hub" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-outputs"/>
+		<area shape="rect" coords="677, 1641, 738, 1706" alt="Azure Stream Analytics Integration In ADLS" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-inputs"/>
+		<area shape="rect" coords="677, 1565, 740, 1626" alt="Azure Stream Analytics Integration In IoT" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-inputs"/>
+		<area shape="rect" coords="680, 1494, 741, 1552" alt="Azure Stream Analytics Integration In Event Hub" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-define-inputs"/>
+		<!--Azure Stream Analytics Parameters-->
+		<area shape="rect" coords="736, 1738, 831, 1781" alt="Azure Stream Analytics High Availability" href="https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-job-reliability"/>
+		<area shape="rect" coords="831, 1684, 912, 1733" alt="Azure Stream Analytics Throughput" href="https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/stream-analytics/stream-analytics-streaming-unit-consumption.md"/>
+		<area shape="rect" coords="740, 1685, 827, 1733" alt="Azure Stream Analytics SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/stream-analytics/v1_0/" />
+		<area shape="rect" coords="876, 1762, 943, 1823" alt="Azure Stream Analytics Azure ML" href="https://docs.microsoft.com/en-us/azure/stream-analytics/machine-learning-udf" />
+		
+		<!--Azure CosmosDB-->
+		<area shape="rect" coords="2701, 2519, 2875, 2717" id="Azure CosmosDB" alt="" href=""/>
+		<!--Azure CosmosDB Parameters-->
+		<area shape="rect" coords="2701, 2767, 2799, 2818" alt="Replication" href=""/>
+		<area shape="rect" coords="2804, 2721, 2883, 2766" alt="Storage" href=""/>
+		<area shape="rect" coords="2700, 2717, 2803, 2766" alt="HA" href=""/>
+		
+		<!--Azure Digital Twins-->
+		<area shape="rect" coords="2200, 2512, 2347, 2722" id="Azure Digital Twins" alt="Azure Digital Twins" href="https://azure.microsoft.com/en-us/services/digital-twins/"/>
+		<!--Azure Digital Twins Integration-->
+		<area shape="rect" coords="2357, 2661, 2417, 2719" alt="Azure Digital Twin integration Service Bus" href="https://docs.microsoft.com/en-us/azure/digital-twins/concepts-data-ingress-egress#data-egress-services"/>
+		<area shape="rect" coords="2357, 2578, 2413, 2642" alt="Azure Digital Twin integration Event Grid" href="https://docs.microsoft.com/en-us/azure/digital-twins/concepts-data-ingress-egress#data-egress-services"/>
+		<area shape="rect" coords="2357, 2511, 2413, 2565" alt="Azure Digital Twin integration Event Hub" href="https://docs.microsoft.com/en-us/azure/digital-twins/concepts-data-ingress-egress#data-egress-services"/>
+		<!--Azure Digital Twins Parameters-->
+		<area shape="rect" coords="2201, 2762, 2278, 2809" alt="Azure Digital Twins SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/digital-twins/v1_0/"/>
+		<area shape="rect" coords="2198, 2712, 2283, 2756" alt="Azure Digital Twins HA" href="https://docs.microsoft.com/en-us/azure/digital-twins/concepts-high-availability-disaster-recovery"/>
+		<!--Azure Data Explorer-->
+		<area shape="rect" coords="1930, 2512, 2101, 2717" id="Azure Data Explorer" alt="Azure Data Explorer" href="https://azure.microsoft.com/en-us/services/data-explorer/"/>
+		<!--Azure Data Explorer Integration-->	
+		<area shape="rect" coords="2094, 2520, 2156, 2584" alt="Azure Data Explorer Integration PowerBI out" href="https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-connector"/>
+		<area shape="rect" coords="1863, 2682, 1917, 2738" alt="Azure Data Explorer Integration IoT Hub in" href="https://github.com/MicrosoftDocs/dataexplorer-docs/blob/master/data-explorer/ingest-data-iot-hub.md"/>
+		<area shape="rect" coords="1866, 2607, 1917, 2666" alt="Azure Data Explorer Integration ADLS in" href="https://docs.microsoft.com/en-us/azure/data-explorer/data-lake-query-data"/>
+		<area shape="rect" coords="1862, 2534, 1917, 2592" alt="Azure Data Explorer Integration Event Hub in" href="https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub"/>
+		<!--Azure Data Explorer Parameters-->
+		<area shape="rect" coords="2006, 2769, 2096, 2804" alt="Storage" href="https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/retentionpolicy"/>
+		<area shape="rect" coords="1920, 2767, 1998, 2810" alt="Azure Data Explorer SLA" href="https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-event-hub"/>
+		<area shape="rect" coords="1922, 2720, 1992, 2762" alt="Azure Data Explorer HA" href="https://docs.microsoft.com/en-us/azure/data-explorer/business-continuity-overview"/>
+		
+		<!--Time Series Insights-->	
+		<area shape="rect" coords="1667, 2509, 1807, 2707" id="Time Series Insights" alt="Time Series Insights" href="https://azure.microsoft.com/en-us/services/time-series-insights/"/>
+		<!--Time Series Insights Integration-->	
+		<area shape="rect" coords="1592, 2598, 1653, 2655" alt="Time Series Insights Integration IOT" href="https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-ingest-data-iot-hub"/>
+		<area shape="rect" coords="1591, 2520, 1658, 2581" alt="Time Series Insights Integration Event Hub" href="https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-ingest-data-event-hub"/>
+		<!--Time Series Insights Parameters-->	
+		<area shape="rect" coords="1654, 2758, 1725, 2805" alt="Time Series Insights SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/time-series-insights/v1_0/"/>
+		<area shape="rect" coords="1742, 2712, 1819, 2752" alt="Time Series Insights Throughput" href="https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-plan-your-environment#streaming-ingestion"/>
+		<area shape="rect" coords="1645, 2715, 1729, 2755" alt="Time Series Insights HA" href="https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-plan-your-environment"/>
+		
+		<!--Azure Service Bus-->
+		<area shape="rect" coords="1297, 2510, 1440, 2713" id="Azure Service Bus" alt="Azure Service Bus" href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview"/>
+		<!--Azure Service Bus Integration-->
+		<area shape="rect" coords="1443, 2515, 1503, 2580" alt="Logic Apps" href="https://docs.microsoft.com/en-us/connectors/servicebus/"/>
+		<area shape="rect" coords="1231, 2517, 1295, 2580" alt="Azure Service Bus Integration Azure Stream Analytics" href="https://azure.microsoft.com/en-us/updates/stream-analytics-support-for-service-bus-queues-and-topics/"/>
+		<!--Azure Service Bus Parameters-->
+		<area shape="rect" coords="1282, 2767, 1358, 2810" alt="Azure Service Bus SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/service-bus/v1_1/"/>
+		<area shape="rect" coords="1366, 2722, 1456, 2762" alt="Azure Service Bus Topic Size" href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quotas"/>
+		<area shape="rect" coords="1279, 2722, 1361, 2764" alt="Azure Service Bus HA" href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-geo-dr"/>
+		<!--Azure CosmosDB-->
+		<area shape="rect" coords="920, 2493, 1088, 2699" id="Azure CosmosDB" alt="Azure CosmosDB" href="https://docs.microsoft.com/en-us/azure/cosmos-db/" />
+		<!--Azure CosmosDB Parameters-->
+		<area shape="rect" coords="923, 2760, 1010, 2804" alt="Azure CosmosDB SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_3/"/>
+		<area shape="rect" coords="1024, 2707, 1087, 2754" alt="Azure CosmosDB Size per key" href="https://docs.microsoft.com/en-us/azure/cosmos-db/concepts-limits"/>
+		<area shape="rect" coords="913, 2707, 1014, 2754" alt="Azure CosmosDB HA" href="https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability"/>
+		<!--Azure Blob Storage-->
+		<area shape="rect" coords="562, 2490, 725, 2686" id= "Azure Blob Storage" alt="Azure Blob Storage" href="https://azure.microsoft.com/en-us/services/storage/blobs/#documentation"/>
+		<!--Azure Blob Storage Parameters-->
+		<area shape="rect" coords="558, 2749, 634, 2790" alt="SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_5/"/>
+		<area shape="rect" coords="646, 2691, 732, 2735" alt="Storage" href="https://docs.microsoft.com/en-us/azure/storage/blobs/scalability-targets"/>
+		<area shape="rect" coords="561, 2689, 630, 2737" alt="HA" href="https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy"/>
+		
+		<!--Azure Synapse Analytics-->
+		<area shape="rect" coords="225, 2490, 365, 2680" id="Azure Synapse Analytics" alt="Azure Synapse Analytics" href="https://azure.microsoft.com/en-us/services/synapse-analytics/"/>
+		<!--Azure Synapse Analytics Integration-->
+		<area shape="rect" coords="368, 2626, 431, 2680" alt="Analysis Services" href="https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-datasource" />
+		<area shape="rect" coords="378, 2550, 430, 2610" alt="PowerBI" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/quickstart-power-bi"/>
+		<area shape="rect" coords="373, 2482, 432, 2539" alt="ADLS" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-cetas"/>
+		<area shape="rect" coords="156, 2687, 206, 2747" alt="Databricks" href="https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/azure/synapse-analytics"/>
+		<area shape="rect" coords="150, 2622, 212, 2679" alt="ASA" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-integrate-azure-stream-analytics"/>
+		<area shape="rect" coords="161, 2551, 206, 2606" alt="ADLS" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables?tabs=sql-pool"/>
+		<area shape="rect" coords="151, 2478, 212, 2535" alt="Cosmos" href="https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link"/>
+		<area shape="rect" coords="61, 2475, 116, 2535" alt="Blob" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables?tabs=hadoop"/>
+		<!--Azure Synapse Analytics Parameters-->
+		<area shape="rect" coords="305, 2733, 393, 2777" alt="RAM Limits" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits"/>
+		<area shape="rect" coords="215, 2734, 297, 2780" alt="SLA" href="https://azure.microsoft.com/en-us/support/legal/sla/synapse-analytics/v1_0/"/>
+		<area shape="rect" coords="303, 2683, 390, 2724" alt="Storage" href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits"/>
+		<area shape="rect" coords="218, 2680, 297, 2721" alt="HA" href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/analytics/azure-synapse"/>
+	
+</map>
+</body>
+</html>
