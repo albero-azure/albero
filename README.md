@@ -1,3 +1,10 @@
+## IMPORTANT NOTE! 
+We are preparing to move this project to GitLab account due to the planned changes in UX and CI\CD pipelines. This repository will be still in use for 2 main aspects: 
+1. Storing and providing most recent versions of the Decision Trees 
+2. Storing and providing access to image maps 
+Also we are planning to keep assets and icon sets here.
+## All the issues will be still tracked via this repository.
+
 # albero
 Public Representation of Albero Project. Helping to Choose the Right Data Backend Technology on Azure.
 
