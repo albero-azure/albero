@@ -187,11 +187,10 @@ mainpage:
     - name: Solutions Gallery
       services:
         - name: IoT on Azure
-          link: https://albero.cloud/mainDT_2.png
           description: This diagram gives you some basic understanding of designing data-heavy IoT solutions on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTIOT.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/DTIOT.html
           filter:
             platform:
               - Azure
