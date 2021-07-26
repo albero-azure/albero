@@ -199,6 +199,7 @@ mainpage:
             technologies:
               - IoT
               - Time-Series
+              
         - name: Modern Data Architecure - Use case
           description: All the Synapse Features and components on on DT.
           preview: /services/azure/DT_Synapse_Components.png
