@@ -199,6 +199,19 @@ mainpage:
             technologies:
               - IoT
               - Time-Series
+        - name: Modern Data Architecure - Use case
+          description: All the Synapse Features and components on on DT.
+          preview: /services/azure/DT_Synapse_Components.png
+          items:
+            - /services/azure/DTSynapse.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - Security
+              - General
+            technologies:
+              - Analytics
 
     - name: Useful Materials
       services:
@@ -291,18 +304,4 @@ mainpage:
           technologies:
             - Analytics
 
-        - name: Azure Synapse Features
-          link: /services/azure/DTSynapse.html
-          description: All the Synapse Features and components on on DT.
-          preview: /services/azure/DT_Synapse_Components.png
-          items:
-            - /services/azure/DTSynapse.html
-          filter:
-            platform:
-              - Azure
-            viewpoints:
-              - Security
-              - General
-            technologies:
-              - Analytics
 
