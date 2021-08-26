@@ -106,6 +106,19 @@ mainpage:
             technologies:
               - Streaming
 
+        - name: Messaging on Azure
+          description: On this diagram you can find all the possible options to handle queueing and messaging options.
+          preview: /services/azure/DTStreaming.png
+          items:
+            - /services/azure/messaging.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Streaming
+
         - name: PostgreSQL on Azure
           description: There are multiple options to run PostgreSQL on Azure. Find out more here.
           preview: /services/azure/DTPostgreSQL.png
