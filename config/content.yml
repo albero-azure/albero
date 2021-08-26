@@ -107,8 +107,8 @@ mainpage:
               - Streaming
 
         - name: Messaging on Azure
-          description: On this diagram you can find all the possible options to handle queueing and messaging options.
-          preview: /services/azure/DTStreaming.png
+          description: On this diagram you can find all the possible options to handle queueing and messaging.
+          preview: /services/azure/messagingDT.png
           items:
             - /services/azure/messaging.html
           filter:
