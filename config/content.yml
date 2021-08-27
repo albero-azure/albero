@@ -108,7 +108,7 @@ mainpage:
 
         - name: Messaging on Azure
           description: On this diagram you can find all the possible options to handle queueing and messaging.
-          preview: /services/azure/messagingDT.png
+          preview: /services/azure/DTMessaging.png
           items:
             - /services/azure/messagingDT.html
           filter:
