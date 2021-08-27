@@ -110,7 +110,7 @@ mainpage:
           description: On this diagram you can find all the possible options to handle queueing and messaging.
           preview: /services/azure/messagingDT.png
           items:
-            - /services/azure/messaging.html
+            - /services/azure/messagingDT.html
           filter:
             platform:
               - Azure
