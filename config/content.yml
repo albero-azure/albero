@@ -29,6 +29,7 @@ filter:
     - Security
     - Developer
     - Industry
+    - Migration
 
 mainpage:
   groups:
@@ -97,6 +98,19 @@ mainpage:
           preview: /services/azure/DTStreaming.png
           items:
             - /services/azure/streaming.html
+          filter:
+            platform:
+              - Azure
+            viewpoints:
+              - General
+            technologies:
+              - Streaming
+
+        - name: Messaging on Azure
+          description: On this diagram you can find all the possible options to handle queueing and messaging.
+          preview: /services/azure/DTMessaging.png
+          items:
+            - /services/azure/messagingDT.html
           filter:
             platform:
               - Azure
@@ -186,11 +200,10 @@ mainpage:
     - name: Solutions Gallery
       services:
         - name: IoT on Azure
-          link: https://albero.cloud/mainDT_2.png
           description: This diagram gives you some basic understanding of designing data-heavy IoT solutions on Azure.
-          preview: /common/Legend.png
+          preview: /services/azure/DTIOT.png
           items:
-            - /services/azure/mainDT_0.html
+            - /services/azure/DTIOT.html
           filter:
             platform:
               - Azure
@@ -199,25 +212,8 @@ mainpage:
             technologies:
               - IoT
               - Time-Series
-
-    - name: Useful Materials
-      services:
-        - name: How to Select Data Tech on Azure
-          link: https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
-          description: This article explains why and how we have build Albero project.
-          preview: https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
-          items:
-            - https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
-          filter:
-          platform:
-            - Azure
-          viewpoints:
-            - General
-          technologies:
-            - General
-
-        - name: Azure Synapse Features
-          link: /services/azure/DTSynapse.html
+              
+        - name: Modern Data Architecure - Use case
           description: All the Synapse Features and components on on DT.
           preview: /services/azure/DT_Synapse_Components.png
           items:
@@ -230,4 +226,96 @@ mainpage:
               - General
             technologies:
               - Analytics
+
+    - name: Useful Materials
+      services:
+        - name: How to Select Data Tech on Azure
+          link: https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
+          description: This article explains why and how we have build Albero project.
+          preview: https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - General
+
+        - name: Crafting Azure Data Architecture
+          link: https://www.linkedin.com/pulse/crafting-azure-data-architecture-albero-decision-tree-zaichikov/
+          description: Provides you with the method to craft architecture for Azure Data backend.
+          preview: https://media-exp3.licdn.com/dms/image/C4D12AQFWUWog8zAFkA/article-inline_image-shrink_1000_1488/0/1615888453091?e=1629331200&v=beta&t=sn84P-ZDeUjy3XT-yZRoYsqA_lpm3vN5FQnq40Uxpsc
+          filter:
+            platform: 
+            - Azure
+            - General
+            viewpoints:
+            - General
+            technologies:
+            - General
+
+        - name: Azure Synapse Analytics Access Management
+          link: https://www.linkedin.com/pulse/simple-access-management-multi-tenant-environment-azure-zaichikov/
+          description: Gives you a simple example of access management in multi-tenant env in Synapse Provisioned pool.
+          preview: https://media-exp3.licdn.com/dms/image/C4D12AQFd1G6X5WUCMA/article-inline_image-shrink_1000_1488/0/1608635480034?e=1629331200&v=beta&t=av1OgLKaYqSTv8oFNGJZdTWlsm-2t0Gmra_bXZXPYE0
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - Security
+            technologies:
+            - General
+            - Analytics          
+
+        - name: Azure Storage Access Control Cheat Sheet
+          link: https://www.linkedin.com/pulse/azure-data-lake-storage-gen2-access-control-cheat-sheet-zaichikov/
+          description: This cheat sheet describes all available options for Azure Storage Authentication.
+          preview: https://media-exp3.licdn.com/dms/image/C4D12AQHyVkyZ5-8SfA/article-cover_image-shrink_720_1280/0/1597746683529?e=1629331200&v=beta&t=Vj2-k-ms78jw4pMFSPSKs72jvK-rg23e4yF3Lq7Ht4Y
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - Security
+            technologies:
+            - General
+            - Analytics
+
+        - name: Azure Synapse Disaster Recovery
+          link: https://www.linkedin.com/pulse/some-notes-azure-synapse-disaster-recovery-andrei-zaichikov/
+          description: Some notes on different scenarios for Azure Synapse Analytics failover.
+          preview: https://media-exp3.licdn.com/dms/image/C4E12AQE0e-3F1BmQRg/article-inline_image-shrink_1500_2232/0/1607376566850?e=1629331200&v=beta&t=f0zbI-lC15oG6UFGQvF7E70S5ipr-SU6Vjr2KG6fNRo
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - Security
+            technologies:
+            - General
+            - Analytics
+
+        - name: Azure Cosmos DB Design Patterns
+          link: https://www.linkedin.com/pulse/azure-cosmos-db-design-patterns-andrei-zaichikov/
+          description: Here we are discussing most valuable design patterns for Azure Cosmos DB.
+          preview: https://media-exp3.licdn.com/dms/image/C4D12AQHsnckHXffzKA/article-inline_image-shrink_1000_1488/0/1594673351321?e=1629331200&v=beta&t=q5T_faAXUA3enRfG-mDu2aJMiTQ2Je3iRAJFEiu9q2w
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - NoSQL
+
+        - name: Some Tips & Tricks for Oracle to Azure Synapse migrations using SSMA
+          link: https://www.linkedin.com/pulse/some-tips-tricks-oracle-azure-synapse-analytics-using-zaichikov/
+          description: Here we discuss some best practices for using SSMA for Oracle to Synapse migrations.
+          preview: https://media-exp3.licdn.com/dms/image/C5612AQE6QXnvQZVzNw/article-cover_image-shrink_600_2000/0/1588528745015?e=1629331200&v=beta&t=xjBM7I08-CyQzjiwV5TyMR45ohd0r4xej2S3wp8BYps
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            - Migration
+            technologies:
+            - Analytics
+
 
