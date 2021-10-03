@@ -11,6 +11,7 @@ import ZoomIn from '../images/ZoomIn.svg'
 import ZoomOut from '../images/ZoomOut.svg'
 import { findNext, findPrev, hasNext, hasPrev } from '../util/collection'
 import { CloudServiceGroup } from '../domain/model/CloudServiceGroup'
+import { last } from 'lodash'
 
 
 const findService: any = (g: string, s: string) => {
@@ -31,7 +32,7 @@ export default ({ location }) => {
     const service: CloudService = findService(g, s)
 
     const { items } = service ?? { items: [] }
-    const [item, setItem] = useState(items?.[0])
+    const [item, setItem] = useState(last(items))
 
     const [zoomIn, setZoomIn] = useState(false)
     const [zoomOut, setZoomOut] = useState(false)
