@@ -84,7 +84,7 @@ mainpage:
           description: In this decision tree we are trying to address a question - when to choose Synapse or Databricks.
           preview: /services/azure/DTSynapseDatabricks.png
           items:
-            - /services/azure/synapsedatabricks.html
+            - /services/azure/sdbx.html
           filter:
             platform:
               - Azure
