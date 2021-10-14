@@ -80,7 +80,7 @@ mainpage:
 
     - name: Technology-Focused Decision Trees
       services:
-        - name: Azure Synapse & Azure Databricks
+        - name: Azure Synapse and Azure Databricks
           description: In this decision tree we are trying to address a question - when to choose Synapse or Databricks.
           preview: /services/azure/DTSynapseDatabricks.png
           items:
