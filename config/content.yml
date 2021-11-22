@@ -254,10 +254,23 @@ mainpage:
             technologies:
             - General
 
+        - name: Full List of Azure Public DataSets
+          link: https://github.com/albero-azure/albero/blob/main/publicdatasets.md
+          description: We are listing all publicly available datasets in Azure.
+          preview: /services/materials/lists.png
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            - Migration
+            technologies:
+            - Analytics
+
         - name: Crafting Azure Data Architecture
           link: https://www.linkedin.com/pulse/crafting-azure-data-architecture-albero-decision-tree-zaichikov/
           description: Provides you with the method to craft architecture for Azure Data backend.
-          preview: https://media-exp3.licdn.com/dms/image/C4D12AQFWUWog8zAFkA/article-inline_image-shrink_1000_1488/0/1615888453091?e=1629331200&v=beta&t=sn84P-ZDeUjy3XT-yZRoYsqA_lpm3vN5FQnq40Uxpsc
+          preview: /services/materials/crafting.png
           filter:
             platform: 
             - Azure
@@ -270,7 +283,7 @@ mainpage:
         - name: Azure Synapse Analytics Access Management
           link: https://www.linkedin.com/pulse/simple-access-management-multi-tenant-environment-azure-zaichikov/
           description: Gives you a simple example of access management in multi-tenant env in Synapse Provisioned pool.
-          preview: https://media-exp3.licdn.com/dms/image/C4D12AQFd1G6X5WUCMA/article-inline_image-shrink_1000_1488/0/1608635480034?e=1629331200&v=beta&t=av1OgLKaYqSTv8oFNGJZdTWlsm-2t0Gmra_bXZXPYE0
+          preview: /services/materials/access.png
           filter:
             platform:
             - Azure
@@ -283,7 +296,7 @@ mainpage:
         - name: Azure Storage Access Control Cheat Sheet
           link: https://www.linkedin.com/pulse/azure-data-lake-storage-gen2-access-control-cheat-sheet-zaichikov/
           description: This cheat sheet describes all available options for Azure Storage Authentication.
-          preview: https://media-exp3.licdn.com/dms/image/C4D12AQHyVkyZ5-8SfA/article-cover_image-shrink_720_1280/0/1597746683529?e=1629331200&v=beta&t=Vj2-k-ms78jw4pMFSPSKs72jvK-rg23e4yF3Lq7Ht4Y
+          preview: /services/materials/storageaccess.jpg
           filter:
             platform:
             - Azure
@@ -296,7 +309,7 @@ mainpage:
         - name: Azure Synapse Disaster Recovery
           link: https://www.linkedin.com/pulse/some-notes-azure-synapse-disaster-recovery-andrei-zaichikov/
           description: Some notes on different scenarios for Azure Synapse Analytics failover.
-          preview: https://media-exp3.licdn.com/dms/image/C4E12AQE0e-3F1BmQRg/article-inline_image-shrink_1500_2232/0/1607376566850?e=1629331200&v=beta&t=f0zbI-lC15oG6UFGQvF7E70S5ipr-SU6Vjr2KG6fNRo
+          preview: /services/materials/synapsedr.png
           filter:
             platform:
             - Azure
@@ -309,7 +322,7 @@ mainpage:
         - name: Azure Cosmos DB Design Patterns
           link: https://www.linkedin.com/pulse/azure-cosmos-db-design-patterns-andrei-zaichikov/
           description: Here we are discussing most valuable design patterns for Azure Cosmos DB.
-          preview: https://media-exp3.licdn.com/dms/image/C4D12AQHsnckHXffzKA/article-inline_image-shrink_1000_1488/0/1594673351321?e=1629331200&v=beta&t=q5T_faAXUA3enRfG-mDu2aJMiTQ2Je3iRAJFEiu9q2w
+          preview: /services/materials/cosmos.png
           filter:
             platform:
             - Azure
@@ -321,7 +334,7 @@ mainpage:
         - name: Some Tips & Tricks for Oracle to Azure Synapse migrations using SSMA
           link: https://www.linkedin.com/pulse/some-tips-tricks-oracle-azure-synapse-analytics-using-zaichikov/
           description: Here we discuss some best practices for using SSMA for Oracle to Synapse migrations.
-          preview: https://media-exp3.licdn.com/dms/image/C5612AQE6QXnvQZVzNw/article-cover_image-shrink_600_2000/0/1588528745015?e=1629331200&v=beta&t=xjBM7I08-CyQzjiwV5TyMR45ohd0r4xej2S3wp8BYps
+          preview: /services/materials/ora2synapse.png
           filter:
             platform:
             - Azure
