@@ -245,7 +245,7 @@ mainpage:
         - name: How to Select Data Tech on Azure
           link: https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/
           description: This article explains why and how we have build Albero project.
-          preview: https://media-exp1.licdn.com/dms/image/C4D12AQH9aZOaOwxWaA/article-cover_image-shrink_720_1280/0/1602241244291?e=1628121600&v=beta&t=mcQGNNoZitmtBH8wekKogjLTr8zGh8_K2o0kyLuodeg
+          preview: /services/materials/howto.jpg
           filter:
             platform:
             - Azure
