@@ -257,7 +257,7 @@ mainpage:
         - name: Full List of Azure Public DataSets
           link: https://github.com/albero-azure/albero/blob/main/publicdatasets.md
           description: We are listing all publicly available datasets in Azure.
-          preview: /services/materials/lists.png
+          preview: /services/materials/lists.jpg
           filter:
             platform:
             - Azure
@@ -322,7 +322,7 @@ mainpage:
         - name: Azure Cosmos DB Design Patterns
           link: https://www.linkedin.com/pulse/azure-cosmos-db-design-patterns-andrei-zaichikov/
           description: Here we are discussing most valuable design patterns for Azure Cosmos DB.
-          preview: /services/materials/cosmos.png
+          preview: /services/materials/cosmos.jpg
           filter:
             platform:
             - Azure
