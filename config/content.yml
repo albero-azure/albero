@@ -345,4 +345,16 @@ mainpage:
             technologies:
             - Analytics
 
-
+    - name: Migration Hub
+      services:
+        - name: How to Select Target for Your Oracle Migration
+          link: /services/azure/migrationHub/mighublow.html
+          description: This article explains why and how we have build Albero project.
+          preview: /services/azure/migrationHub/oramigrationhubfull.png
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - General
