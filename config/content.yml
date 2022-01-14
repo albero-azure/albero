@@ -348,7 +348,7 @@ mainpage:
     - name: Migration Hub
       services:
         - name: How to Select Target for Your Oracle Migration
-          link: /services/azure/migrationHub/mighublow.html
+          link: /services/azure/migrationHub/mighubmain.html
           description: This article explains why and how we have build Albero project.
           preview: /services/azure/migrationHub/oramigrationhubfull.png
           items:
