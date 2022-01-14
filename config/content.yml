@@ -347,13 +347,22 @@ mainpage:
 
     - name: Migration Hub
       services:
-        - name: How to Select Target for Your Oracle Migration
+        - name: How to Select Target for Your Oracle Migration (Detailed)
           link: /services/azure/migrationHub/mighubmain.html
-          description: This article explains why and how we have build Albero project.
+          description: This is a full map of Oracle to Azure migration capabilities on one picture.
           preview: /services/azure/migrationHub/oramigrationhubfull.png
-          items:
-            - /services/azure/migrationHub/mighublow.html
-            - /services/azure/migrationHub/mighubmain.html
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - General
+
+        - name: How to Select Target for Your Oracle Migration (High-Level)
+          link: /services/azure/migrationHub/mighublow.html
+          description: This is a high-level map of Oracle to Azure migration capabilities with drill-downs.
+          preview: /services/azure/migrationHub/oramigrationfhubhl.png
           filter:
             platform:
             - Azure
