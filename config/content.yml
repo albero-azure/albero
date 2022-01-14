@@ -351,6 +351,9 @@ mainpage:
           link: /services/azure/migrationHub/mighublow.html
           description: This article explains why and how we have build Albero project.
           preview: /services/azure/migrationHub/oramigrationhubfull.png
+          items:
+            - /services/azure/migrationHub/mighublow.html
+            - /services/azure/migrationHub/mighubmain.html
           filter:
             platform:
             - Azure
