@@ -211,6 +211,32 @@ mainpage:
             technologies:
               - Data Lake
 
+    - name: Migration Hub
+      services:
+        - name: How to Select Target for Your Oracle Migration (Detailed)
+          link: /services/azure/migrationHub/mighubmain.html
+          description: This is a full map of Oracle to Azure migration capabilities on one picture.
+          preview: /services/azure/migrationHub/oramigrationhubfull.png
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - General
+
+        - name: How to Select Target for Your Oracle Migration (High-Level)
+          link: /services/azure/migrationHub/mighublow.html
+          description: This is a high-level map of Oracle to Azure migration capabilities with drill-downs.
+          preview: /services/azure/migrationHub/oramigrationfhubhl.png
+          filter:
+            platform:
+            - Azure
+            viewpoints:
+            - General
+            technologies:
+            - General
+
     - name: Solutions Gallery
       services:
         - name: IoT on Azure
@@ -227,7 +253,7 @@ mainpage:
               - IoT
               - Time-Series
               
-        - name: Modern Data Architecure - Use case
+        - name: Modern Data Architecture - Use case
           description: All the Synapse Features and components on on DT.
           preview: /services/azure/DT_Synapse_Components.png
           items:
@@ -345,28 +371,16 @@ mainpage:
             technologies:
             - Analytics
 
-    - name: Migration Hub
-      services:
-        - name: How to Select Target for Your Oracle Migration (Detailed)
-          link: /services/azure/migrationHub/mighubmain.html
-          description: This is a full map of Oracle to Azure migration capabilities on one picture.
-          preview: /services/azure/migrationHub/oramigrationhubfull.png
+        - name: Landing Oracle DB on Azure Where? How? 
+          link: 
+          description: Here we discuss some best practices for using SSMA for Oracle to Synapse migrations.
+          preview: /services/materials/cover.png
           filter:
             platform:
             - Azure
             viewpoints:
             - General
+            - Migration
             technologies:
-            - General
+            - Analytics
 
-        - name: How to Select Target for Your Oracle Migration (High-Level)
-          link: /services/azure/migrationHub/mighublow.html
-          description: This is a high-level map of Oracle to Azure migration capabilities with drill-downs.
-          preview: /services/azure/migrationHub/oramigrationfhubhl.png
-          filter:
-            platform:
-            - Azure
-            viewpoints:
-            - General
-            technologies:
-            - General
